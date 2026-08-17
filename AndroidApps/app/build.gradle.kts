@@ -36,6 +36,7 @@ android {
 }
 
 dependencies {
+    implementation("org.java-websocket:Java-WebSocket:1.5.3")
     implementation("net.java.dev.jna:jna:5.13.0@aar")
     implementation("com.alphacephei:vosk-android:0.3.32@aar")
     implementation(libs.androidx.core.ktx)
