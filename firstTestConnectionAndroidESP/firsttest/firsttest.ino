@@ -3,6 +3,7 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
+#include <driver/i2s.h>
 
 // --- WIFI CREDENTIALS (YOUR PHONE'S HOTSPOT) ---
 const char* ssid = "pppaaa";
@@ -16,8 +17,37 @@ unsigned long lastTextTime = 0;
 #define OLED_RESET -1
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
+#define I2S_WS 3
+#define I2S_SCK 4
+#define I2S_SD 5
+#define I2S_PORT I2S_NUM_0
+
+
 // --- WEBSOCKET SETUP ---
 WebSocketsClient webSocket;
+
+void setupI2S() {///////////////////////////////////////////////
+    const i2s_config_t i2s_config = {
+        .mode = i2s_mode_t(I2S_MODE_MASTER | I2S_MODE_RX),
+        .sample_rate = 16000,
+        .bits_per_sample = I2S_BITS_PER_SAMPLE_16BIT,
+        .channel_format = I2S_CHANNEL_FMT_ONLY_LEFT,
+        .communication_format = i2s_comm_format_t(I2S_COMM_FORMAT_STAND_I2S),
+        .intr_alloc_flags = 0,
+        .dma_buf_count = 8,
+        .dma_buf_len = 64,
+        .use_apll = false
+    };
+    i2s_driver_install(I2S_PORT, &i2s_config, 0, NULL);
+
+    const i2s_pin_config_t pin_config = {
+        .bck_io_num = I2S_SCK,
+        .ws_io_num = I2S_WS,
+        .data_out_num = I2S_PIN_NO_CHANGE,
+        .data_in_num = I2S_SD
+    };
+    i2s_set_pin(I2S_PORT, &pin_config);
+}
 
 void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
     switch(type) {
@@ -63,6 +93,10 @@ void setup() {
     display.print("Connecting Wi-Fi...");
     display.display();
 
+        setupI2S();////////////////////////////////////////////////////////////////
+
+
+
        WiFi.mode(WIFI_STA); // FORCE it into receiver mode
         WiFi.setSleep(false);
     WiFi.disconnect();   // Clear any stuck previous connections
@@ -101,4 +135,20 @@ void loop() {
         lastTextTime = 0; // Stop it from clearing constantly
          Serial.println("Screen cleared after 3 seconds of silence.");
     }
+
+       // RECORD AUDIO AND SEND TO PHONE////////////////////////////////////////////////////////
+    if (webSocket.isConnected()) {
+        int16_t audioBuffer[512]; // Create a bucket for audio
+        size_t bytesRead = 0;
+        
+        // Fill the bucket from the Mic
+        esp_err_t result = i2s_read(I2S_PORT, &audioBuffer, sizeof(audioBuffer), &bytesRead, portMAX_DELAY);
+        
+        // If bucket is full, throw it to the phone!
+        if (result == ESP_OK && bytesRead > 0) {
+            webSocket.sendBIN((uint8_t*)audioBuffer, bytesRead);
+        }
+    }
+
+
 }
