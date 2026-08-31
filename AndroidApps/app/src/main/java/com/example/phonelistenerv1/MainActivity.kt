@@ -109,7 +109,7 @@ class MainActivity : AppCompatActivity(), RecognitionListener {
         wsServer?.stop()
         speechService?.shutdown()
     }
-    // --- THE WEBSOCKET SERVER CLASS ---
+
     inner class SimpleWebSocketServer(address: InetSocketAddress) : WebSocketServer(address) {
         var running = false
         override fun onOpen(conn: WebSocket?, handshake: ClientHandshake?) {

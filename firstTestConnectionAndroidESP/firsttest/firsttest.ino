@@ -33,7 +33,7 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
             break;
         case WStype_TEXT:
             // WE RECEIVED TEXT FROM THE AI!
-            String aiText = (char*)payload;
+           { String aiText = (char*)payload;
             Serial.println(aiText);
             
             // Print it to the OLED
@@ -42,7 +42,7 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
             display.print(aiText);
             display.display();
              lastTextTime = millis();
-            break;
+            break;}
     }
 }
 
@@ -89,7 +89,7 @@ void setup() {
     webSocket.begin(gateway.toString(), 9090, "/");
     webSocket.onEvent(webSocketEvent);
     webSocket.setReconnectInterval(2000);
-    webSocket.enableHeartbeat(15000, 3000, 2);
+   // webSocket.enableHeartbeat(15000, 3000, 2);
 }
 
 void loop() {
