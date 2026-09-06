@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.chaquo.python")
 }
 
 android {
@@ -15,6 +16,9 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        ndk {
+            abiFilters += listOf("arm64-v8a", "x86_64")
+        }
     }
 
     buildTypes {
@@ -34,7 +38,15 @@ android {
         jvmTarget = "11"
     }
 }
-
+chaquopy {
+    defaultConfig {
+        pip {
+            install("onnxruntime")
+            install("sentencepiece")
+            install("numpy")
+        }
+    }
+}
 dependencies {
     implementation("org.java-websocket:Java-WebSocket:1.5.3")
     implementation("net.java.dev.jna:jna:5.13.0@aar")

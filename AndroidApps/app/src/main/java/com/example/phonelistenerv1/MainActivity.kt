@@ -26,7 +26,6 @@ class MainActivity : AppCompatActivity() {
     private var wakeLock: PowerManager.WakeLock? = null
     private var wsServer: SimpleWebSocketServer? = null
 
-    // NEW: Make Recognizer global so the WebSocket can use it
     private var recognizer: Recognizer? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -47,11 +46,8 @@ class MainActivity : AppCompatActivity() {
         wsServer?.isReuseAddr = true
         wsServer?.start()
 
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.RECORD_AUDIO), 1)
-        } else {
             loadVoskModel()
-        }
+
     }
 
     private fun loadVoskModel() {
@@ -93,10 +89,9 @@ class MainActivity : AppCompatActivity() {
             Log.d("WS", "ESP32 Disconnected!")
             runOnUiThread { btnStart.text = "ESP32 Disconnected." }
         }
-        override fun onMessage(conn: WebSocket?, message: String?) {} // Ignore text messages from ESP32
+        override fun onMessage(conn: WebSocket?, message: String?) {}
 
-        // --- THIS IS THE MAGIC ---
-        // It catches binary audio from the ESP32 and feeds it to Vosk!
+
         override fun onMessage(conn: WebSocket?, message: ByteBuffer?) {
             val audioData = message?.array() ?: return
 
@@ -111,7 +106,7 @@ class MainActivity : AppCompatActivity() {
                     val spokenText = json.getString(key)
                     if (spokenText.isNotEmpty()) {
                         runOnUiThread { tvResult.text = spokenText }
-                        broadcast(spokenText) // Send text back to OLED!
+                        broadcast(spokenText) //sent to oled
                     }
                 }
             }
