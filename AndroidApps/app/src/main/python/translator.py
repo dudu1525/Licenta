@@ -1,5 +1,0 @@
-
-
-
-
-#decoder done indiv

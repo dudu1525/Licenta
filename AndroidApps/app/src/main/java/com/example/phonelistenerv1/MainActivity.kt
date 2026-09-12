@@ -19,6 +19,7 @@ import org.vosk.android.StorageService
 import java.net.InetSocketAddress
 import java.nio.ByteBuffer
 
+import java.io.File
 class MainActivity : AppCompatActivity() {
 
     private lateinit var tvResult: TextView
@@ -27,6 +28,9 @@ class MainActivity : AppCompatActivity() {
     private var wsServer: SimpleWebSocketServer? = null
 
     private var recognizer: Recognizer? = null
+
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,6 +52,7 @@ class MainActivity : AppCompatActivity() {
 
             loadVoskModel()
 
+
     }
 
     private fun loadVoskModel() {
@@ -61,6 +66,9 @@ class MainActivity : AppCompatActivity() {
             { exception -> tvResult.text = "Error: ${exception.message}" }
         )
     }
+
+
+
 
     override fun onResume() {
         super.onResume()
@@ -92,7 +100,8 @@ class MainActivity : AppCompatActivity() {
         override fun onMessage(conn: WebSocket?, message: String?) {}
 
 
-        override fun onMessage(conn: WebSocket?, message: ByteBuffer?) {
+        override fun onMessage(conn: WebSocket?, message: ByteBuffer?)
+        {
             val audioData = message?.array() ?: return
 
             recognizer?.let { rec ->
@@ -102,11 +111,16 @@ class MainActivity : AppCompatActivity() {
                 val json = JSONObject(jsonResult)
                 val key = if (isSentenceFinished) "text" else "partial"
 
-                if (json.has(key)) {
+                if (json.has(key))
+                {
                     val spokenText = json.getString(key)
                     if (spokenText.isNotEmpty()) {
-                        runOnUiThread { tvResult.text = spokenText }
-                        broadcast(spokenText) //sent to oled
+
+
+                                runOnUiThread { tvResult.text = spokenText }
+                                broadcast(spokenText) //sent to oled
+
+
                     }
                 }
             }

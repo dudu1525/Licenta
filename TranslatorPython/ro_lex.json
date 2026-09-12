@@ -1,0 +1,3567 @@
+{
+  "ro_001": {
+    "lemma": "eu",
+    "tags": [
+      "<prn>",
+      "<p1>",
+      "<sg>",
+      "<nom>",
+      "<tn>"
+    ]
+  },
+  "ro_002": {
+    "lemma": "mă",
+    "tags": [
+      "<prn>",
+      "<p1>",
+      "<sg>",
+      "<acc>",
+      "<cl>"
+    ]
+  },
+  "ro_003": {
+    "lemma": "meu",
+    "tags": [
+      "<prn>",
+      "<p1>",
+      "<sg>",
+      "<gen>"
+    ]
+  },
+  "ro_004": {
+    "lemma": "al meu",
+    "tags": [
+      "<prn>",
+      "<p1>",
+      "<sg>",
+      "<gen>",
+      "<tn>"
+    ]
+  },
+  "ro_005": {
+    "lemma": "tu",
+    "tags": [
+      "<prn>",
+      "<p2>",
+      "<sg>",
+      "<nom>",
+      "<tn>"
+    ]
+  },
+  "ro_006": {
+    "lemma": "tău",
+    "tags": [
+      "<prn>",
+      "<p2>",
+      "<sg>",
+      "<gen>"
+    ]
+  },
+  "ro_007": {
+    "lemma": "el",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<sg>",
+      "<m>",
+      "<nom>",
+      "<tn>"
+    ]
+  },
+  "ro_008": {
+    "lemma": "îl",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<sg>",
+      "<m>",
+      "<acc>",
+      "<cl>"
+    ]
+  },
+  "ro_009": {
+    "lemma": "lui",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<sg>",
+      "<m>",
+      "<gen>"
+    ]
+  },
+  "ro_010": {
+    "lemma": "ea",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<sg>",
+      "<f>",
+      "<nom>",
+      "<tn>"
+    ]
+  },
+  "ro_011": {
+    "lemma": "o",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<sg>",
+      "<f>",
+      "<acc>",
+      "<cl>"
+    ]
+  },
+  "ro_012": {
+    "lemma": "noi",
+    "tags": [
+      "<prn>",
+      "<p1>",
+      "<pl>",
+      "<nom>",
+      "<tn>"
+    ]
+  },
+  "ro_013": {
+    "lemma": "ne",
+    "tags": [
+      "<prn>",
+      "<p1>",
+      "<pl>",
+      "<acc>",
+      "<cl>"
+    ]
+  },
+  "ro_014": {
+    "lemma": "ei",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<pl>",
+      "<m>",
+      "<nom>",
+      "<tn>"
+    ]
+  },
+  "ro_015": {
+    "lemma": "îi",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<pl>",
+      "<m>",
+      "<acc>",
+      "<cl>"
+    ]
+  },
+  "ro_016": {
+    "lemma": "bărbat",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_017": {
+    "lemma": "femeie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_018": {
+    "lemma": "copil",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_019": {
+    "lemma": "băiat",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_020": {
+    "lemma": "fată",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_021": {
+    "lemma": "bebeluș",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_022": {
+    "lemma": "tată",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_023": {
+    "lemma": "mamă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_024": {
+    "lemma": "fiu",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_025": {
+    "lemma": "fiică",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_026": {
+    "lemma": "frate",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_027": {
+    "lemma": "soră",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_028": {
+    "lemma": "bunic",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_029": {
+    "lemma": "bunică",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_030": {
+    "lemma": "unchi",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_031": {
+    "lemma": "mătușă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_032": {
+    "lemma": "văr",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_033": {
+    "lemma": "soț",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_034": {
+    "lemma": "soție",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_035": {
+    "lemma": "prieten",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_036": {
+    "lemma": "profesor",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_037": {
+    "lemma": "student",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_038": {
+    "lemma": "doctor",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_039": {
+    "lemma": "rege",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_040": {
+    "lemma": "regină",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>",
+      "<human>"
+    ]
+  },
+  "ro_041": {
+    "lemma": "câine",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_042": {
+    "lemma": "pisică",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_043": {
+    "lemma": "cal",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_044": {
+    "lemma": "vacă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_045": {
+    "lemma": "porc",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_046": {
+    "lemma": "oaie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_047": {
+    "lemma": "capră",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_048": {
+    "lemma": "pui",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_049": {
+    "lemma": "rață",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_050": {
+    "lemma": "pește",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_051": {
+    "lemma": "pasăre",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_052": {
+    "lemma": "urs",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_053": {
+    "lemma": "lup",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_054": {
+    "lemma": "vulpe",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_055": {
+    "lemma": "iepure",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_056": {
+    "lemma": "șoarece",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_057": {
+    "lemma": "leu",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_058": {
+    "lemma": "tigru",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_059": {
+    "lemma": "elefant",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_060": {
+    "lemma": "maimuță",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_061": {
+    "lemma": "șarpe",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_062": {
+    "lemma": "broască",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_063": {
+    "lemma": "albină",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_064": {
+    "lemma": "furnică",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_065": {
+    "lemma": "fluture",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>",
+      "<anim>"
+    ]
+  },
+  "ro_066": {
+    "lemma": "cap",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_067": {
+    "lemma": "față",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_068": {
+    "lemma": "ochi",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_069": {
+    "lemma": "ureche",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_070": {
+    "lemma": "nas",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_071": {
+    "lemma": "gură",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_072": {
+    "lemma": "dinte",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_073": {
+    "lemma": "limbă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_074": {
+    "lemma": "buza",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_075": {
+    "lemma": "gât",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_076": {
+    "lemma": "umăr",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_077": {
+    "lemma": "braț",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_078": {
+    "lemma": "mână",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_079": {
+    "lemma": "deget",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_080": {
+    "lemma": "picior",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_081": {
+    "lemma": "picior",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_082": {
+    "lemma": "genunchi",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_083": {
+    "lemma": "spate",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_084": {
+    "lemma": "piept",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_085": {
+    "lemma": "inimă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_086": {
+    "lemma": "sânge",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_087": {
+    "lemma": "os",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_088": {
+    "lemma": "piele",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_089": {
+    "lemma": "păr",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_090": {
+    "lemma": "creier",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_091": {
+    "lemma": "casă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_092": {
+    "lemma": "cameră",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_093": {
+    "lemma": "ușă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_094": {
+    "lemma": "fereastră",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_095": {
+    "lemma": "perete",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_096": {
+    "lemma": "podea",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_097": {
+    "lemma": "acoperiș",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_098": {
+    "lemma": "masă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_099": {
+    "lemma": "scaun",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_100": {
+    "lemma": "pat",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_101": {
+    "lemma": "birou",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_102": {
+    "lemma": "raft",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_103": {
+    "lemma": "oglindă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_104": {
+    "lemma": "lampă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_105": {
+    "lemma": "ceas",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_106": {
+    "lemma": "cheie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_107": {
+    "lemma": "lacăt",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_108": {
+    "lemma": "carte",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_109": {
+    "lemma": "stilou",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_110": {
+    "lemma": "hârtie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_111": {
+    "lemma": "telefon",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_112": {
+    "lemma": "calculator",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_113": {
+    "lemma": "mașină",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_114": {
+    "lemma": "bicicletă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_115": {
+    "lemma": "drum",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_116": {
+    "lemma": "stradă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_117": {
+    "lemma": "pod",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_118": {
+    "lemma": "cămașă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_119": {
+    "lemma": "pantaloni",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_120": {
+    "lemma": "pantof",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_121": {
+    "lemma": "pălărie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_122": {
+    "lemma": "palton",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_123": {
+    "lemma": "geantă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_124": {
+    "lemma": "bani",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_125": {
+    "lemma": "monedă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_126": {
+    "lemma": "unealtă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_127": {
+    "lemma": "cuțit",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_128": {
+    "lemma": "cană",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_129": {
+    "lemma": "farfurie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_130": {
+    "lemma": "sticlă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_131": {
+    "lemma": "soare",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_132": {
+    "lemma": "lună",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_133": {
+    "lemma": "stea",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_134": {
+    "lemma": "cer",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_135": {
+    "lemma": "nor",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_136": {
+    "lemma": "ploaie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_137": {
+    "lemma": "zăpadă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_138": {
+    "lemma": "vânt",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_139": {
+    "lemma": "furtună",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_140": {
+    "lemma": "mare",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_141": {
+    "lemma": "râu",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_142": {
+    "lemma": "lac",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_143": {
+    "lemma": "munte",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_144": {
+    "lemma": "deal",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_145": {
+    "lemma": "vale",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_146": {
+    "lemma": "pădure",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_147": {
+    "lemma": "copac",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_148": {
+    "lemma": "floare",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_149": {
+    "lemma": "iarbă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_150": {
+    "lemma": "frunză",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_151": {
+    "lemma": "piatră",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_152": {
+    "lemma": "nisip",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_153": {
+    "lemma": "pământ",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_154": {
+    "lemma": "foc",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_155": {
+    "lemma": "gheață",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_156": {
+    "lemma": "pâine",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_157": {
+    "lemma": "carne",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_158": {
+    "lemma": "pește",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_159": {
+    "lemma": "ou",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_160": {
+    "lemma": "brânză",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_161": {
+    "lemma": "unt",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_162": {
+    "lemma": "lapte",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_163": {
+    "lemma": "apă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_164": {
+    "lemma": "vin",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_165": {
+    "lemma": "bere",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_166": {
+    "lemma": "cafea",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_167": {
+    "lemma": "ceai",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_168": {
+    "lemma": "suc",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_169": {
+    "lemma": "supă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_170": {
+    "lemma": "măr",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_171": {
+    "lemma": "pară",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_172": {
+    "lemma": "strugure",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_173": {
+    "lemma": "portocală",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_174": {
+    "lemma": "banană",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_175": {
+    "lemma": "roșie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_176": {
+    "lemma": "cartof",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_177": {
+    "lemma": "ceapă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_178": {
+    "lemma": "morcov",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_179": {
+    "lemma": "sare",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_180": {
+    "lemma": "zahăr",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_181": {
+    "lemma": "ulei",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_182": {
+    "lemma": "orez",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_183": {
+    "lemma": "tort",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_184": {
+    "lemma": "ciocolată",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_185": {
+    "lemma": "înghețată",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_186": {
+    "lemma": "timp",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_187": {
+    "lemma": "an",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_188": {
+    "lemma": "lună",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_189": {
+    "lemma": "săptămână",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_190": {
+    "lemma": "zi",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_191": {
+    "lemma": "oră",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_192": {
+    "lemma": "minut",
+    "tags": [
+      "<n>",
+      "<nt>",
+      "<sg>"
+    ]
+  },
+  "ro_193": {
+    "lemma": "secundă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_194": {
+    "lemma": "dimineață",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_195": {
+    "lemma": "după-amiază",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_196": {
+    "lemma": "seară",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_197": {
+    "lemma": "noapte",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_198": {
+    "lemma": "azi",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_199": {
+    "lemma": "mâine",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_200": {
+    "lemma": "ieri",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_201": {
+    "lemma": "luni",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_202": {
+    "lemma": "marți",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_203": {
+    "lemma": "miercuri",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_204": {
+    "lemma": "joi",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_205": {
+    "lemma": "vineri",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_206": {
+    "lemma": "sâmbătă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_207": {
+    "lemma": "duminică",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_208": {
+    "lemma": "ianuarie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_209": {
+    "lemma": "februarie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_210": {
+    "lemma": "martie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_211": {
+    "lemma": "aprilie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_212": {
+    "lemma": "mai",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_213": {
+    "lemma": "iunie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_214": {
+    "lemma": "iulie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_215": {
+    "lemma": "august",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_216": {
+    "lemma": "septembrie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_217": {
+    "lemma": "octombrie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_218": {
+    "lemma": "noiembrie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_219": {
+    "lemma": "decembrie",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_220": {
+    "lemma": "primăvară",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_221": {
+    "lemma": "vară",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_222": {
+    "lemma": "toamnă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_223": {
+    "lemma": "iarnă",
+    "tags": [
+      "<n>",
+      "<f>",
+      "<sg>"
+    ]
+  },
+  "ro_224": {
+    "lemma": "zero",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_225": {
+    "lemma": "unu",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_226": {
+    "lemma": "doi",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_227": {
+    "lemma": "trei",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_228": {
+    "lemma": "patru",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_229": {
+    "lemma": "cinci",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_230": {
+    "lemma": "șase",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_231": {
+    "lemma": "șapte",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_232": {
+    "lemma": "opt",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_233": {
+    "lemma": "nouă",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_234": {
+    "lemma": "zece",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_235": {
+    "lemma": "unsprezece",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_236": {
+    "lemma": "doisprezece",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_237": {
+    "lemma": "treisprezece",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_238": {
+    "lemma": "paisprezece",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_239": {
+    "lemma": "cincisprezece",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_240": {
+    "lemma": "șaisprezece",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_241": {
+    "lemma": "șaptesprezece",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_242": {
+    "lemma": "optsprezece",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_243": {
+    "lemma": "nouăsprezece",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_244": {
+    "lemma": "douăzeci",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_245": {
+    "lemma": "treizeci",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_246": {
+    "lemma": "patruzeci",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_247": {
+    "lemma": "cincizeci",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_248": {
+    "lemma": "sută",
+    "tags": [
+      "<n>",
+      "<m>",
+      "<sg>"
+    ]
+  },
+  "ro_249": {
+    "lemma": "a_fi",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_250": {
+    "lemma": "a_avea",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_251": {
+    "lemma": "a_face",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_252": {
+    "lemma": "a_merge",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_253": {
+    "lemma": "a_veni",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_254": {
+    "lemma": "a_vedea",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_255": {
+    "lemma": "a_auzi",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_256": {
+    "lemma": "a_spune",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "ro_257": {
+    "lemma": "a_da",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "ro_258": {
+    "lemma": "a_lua",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_259": {
+    "lemma": "a_ști",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_260": {
+    "lemma": "a_gândi",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_261": {
+    "lemma": "a_vrea",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<gov_conj>"
+    ]
+  },
+  "ro_262": {
+    "lemma": "a_putea",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<gov_conj>"
+    ]
+  },
+  "ro_263": {
+    "lemma": "a_trebui",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<gov_conj>"
+    ]
+  },
+  "ro_264": {
+    "lemma": "a_iubi",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_265": {
+    "lemma": "a_urî",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_266": {
+    "lemma": "a_plăcea",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_267": {
+    "lemma": "a_mânca",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_268": {
+    "lemma": "a_be",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_269": {
+    "lemma": "a_dormi",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_270": {
+    "lemma": "a_trezii",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_271": {
+    "lemma": "a_merge",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_272": {
+    "lemma": "a_alerga",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_273": {
+    "lemma": "a_se_aseza",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "ro_274": {
+    "lemma": "a_sta",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_275": {
+    "lemma": "a_scrie",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_276": {
+    "lemma": "a_citi",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_277": {
+    "lemma": "a_vorbi",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_278": {
+    "lemma": "a_asculta",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_279": {
+    "lemma": "a_privii",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_280": {
+    "lemma": "a_privii",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_281": {
+    "lemma": "a_găsi",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_282": {
+    "lemma": "a_pierde",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_283": {
+    "lemma": "a_cumpăra",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_284": {
+    "lemma": "a_vinde",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_285": {
+    "lemma": "a_plăti",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_286": {
+    "lemma": "a_lucra",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_287": {
+    "lemma": "a_se_juca",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "ro_288": {
+    "lemma": "a_învăța",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_289": {
+    "lemma": "a_predua",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "ro_290": {
+    "lemma": "a_ajuta",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_291": {
+    "lemma": "a_întreba",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "ro_292": {
+    "lemma": "a_răspunde",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_293": {
+    "lemma": "a_suna",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_294": {
+    "lemma": "a_aștepta",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_295": {
+    "lemma": "a_deschide",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_296": {
+    "lemma": "a_închide",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_297": {
+    "lemma": "a_începe",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_298": {
+    "lemma": "a_termina",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_299": {
+    "lemma": "a_opri",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_300": {
+    "lemma": "a_continua",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_301": {
+    "lemma": "a_încerca",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_302": {
+    "lemma": "a_avea_nevoie",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_303": {
+    "lemma": "a_folosi",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_304": {
+    "lemma": "a_face",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_305": {
+    "lemma": "a_crea",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_306": {
+    "lemma": "a_construi",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_307": {
+    "lemma": "a_sparge",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_308": {
+    "lemma": "a_repara",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_309": {
+    "lemma": "a_curăța",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_310": {
+    "lemma": "a_spăla",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ref>"
+    ]
+  },
+  "ro_311": {
+    "lemma": "a_găti",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_312": {
+    "lemma": "a_tăia",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_313": {
+    "lemma": "a_trage",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_314": {
+    "lemma": "a_impinge",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_315": {
+    "lemma": "a_arunca",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_316": {
+    "lemma": "a_prinde",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_317": {
+    "lemma": "a_cădea",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_318": {
+    "lemma": "a_se_ridica",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "ro_319": {
+    "lemma": "a_zbura",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_320": {
+    "lemma": "a_înota",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_321": {
+    "lemma": "a_conduce",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_322": {
+    "lemma": "a_călări",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_323": {
+    "lemma": "a_călători",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_324": {
+    "lemma": "a_sosi",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_325": {
+    "lemma": "a_pleca",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_326": {
+    "lemma": "a_se_întoarce",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "ro_327": {
+    "lemma": "a_intra",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_328": {
+    "lemma": "a_ieși",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_329": {
+    "lemma": "a_trăi",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_330": {
+    "lemma": "a_muri",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_331": {
+    "lemma": "a_omorî",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_332": {
+    "lemma": "a_se_naște",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "ro_333": {
+    "lemma": "a_crește",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_334": {
+    "lemma": "a_schimba",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_335": {
+    "lemma": "a_deveni",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_336": {
+    "lemma": "a_rămâne",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_337": {
+    "lemma": "a_simți",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_338": {
+    "lemma": "a_părea",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_339": {
+    "lemma": "a_apărea",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_340": {
+    "lemma": "a_dispărea",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_341": {
+    "lemma": "a_se_întâmpla",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "ro_342": {
+    "lemma": "a_exista",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_343": {
+    "lemma": "a_apartine",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_344": {
+    "lemma": "a_conține",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_345": {
+    "lemma": "a_include",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_346": {
+    "lemma": "a_însemna",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_347": {
+    "lemma": "a_și_aminti",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ref>"
+    ]
+  },
+  "ro_348": {
+    "lemma": "a_uita",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_349": {
+    "lemma": "a_crede",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_350": {
+    "lemma": "a_spera",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<gov_conj>"
+    ]
+  },
+  "ro_351": {
+    "lemma": "a_se_tem",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ref>"
+    ]
+  },
+  "ro_352": {
+    "lemma": "a_dori",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<gov_conj>"
+    ]
+  },
+  "ro_353": {
+    "lemma": "a_alege",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_354": {
+    "lemma": "a_decide",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_355": {
+    "lemma": "a_fi_de_acord",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_356": {
+    "lemma": "a_nu_fi_de_acord",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "ro_357": {
+    "lemma": "a_promite",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "ro_358": {
+    "lemma": "a_oferi",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "ro_359": {
+    "lemma": "a_primi",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_360": {
+    "lemma": "a_trimite",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "ro_361": {
+    "lemma": "a_aduce",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_362": {
+    "lemma": "a_cara",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_363": {
+    "lemma": "aține",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_364": {
+    "lemma": "a_pune",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_365": {
+    "lemma": "a_mișca",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_366": {
+    "lemma": "a_intoarce",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_367": {
+    "lemma": "a_urmări",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_368": {
+    "lemma": "a_conduce",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_369": {
+    "lemma": "a_întâlni",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_370": {
+    "lemma": "a_vizita",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_371": {
+    "lemma": "a_invita",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "ro_372": {
+    "lemma": "a_mulțumi",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_373": {
+    "lemma": "a_și_cere_scuze",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "ro_374": {
+    "lemma": "a_celebra",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "ro_375": {
+    "lemma": "bun",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_376": {
+    "lemma": "rău",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_377": {
+    "lemma": "mare",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_378": {
+    "lemma": "mic",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_379": {
+    "lemma": "lung",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_380": {
+    "lemma": "scurt",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_381": {
+    "lemma": "înalt",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_382": {
+    "lemma": "scund",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_383": {
+    "lemma": "larg",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_384": {
+    "lemma": "îngust",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_385": {
+    "lemma": "gros",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_386": {
+    "lemma": "subțire",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_387": {
+    "lemma": "greu",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_388": {
+    "lemma": "ușor",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_389": {
+    "lemma": "rapid",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_390": {
+    "lemma": "lent",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_391": {
+    "lemma": "cald",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_392": {
+    "lemma": "rece",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_393": {
+    "lemma": "cald",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_394": {
+    "lemma": "rece",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_395": {
+    "lemma": "nou",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_396": {
+    "lemma": "vechi",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_397": {
+    "lemma": "tânăr",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_398": {
+    "lemma": "frumos",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_399": {
+    "lemma": "urât",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_400": {
+    "lemma": "curat",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_401": {
+    "lemma": "murdar",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_402": {
+    "lemma": "bogat",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_403": {
+    "lemma": "sărac",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_404": {
+    "lemma": "fericit",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_405": {
+    "lemma": "trist",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_406": {
+    "lemma": "supărat",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_407": {
+    "lemma": "obosit",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_408": {
+    "lemma": "flămând",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_409": {
+    "lemma": "însetat",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_410": {
+    "lemma": "bolnav",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_411": {
+    "lemma": "sănătos",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_412": {
+    "lemma": "puternic",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_413": {
+    "lemma": "slab",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_414": {
+    "lemma": "deștept",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_415": {
+    "lemma": "prost",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_416": {
+    "lemma": "ușor",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_417": {
+    "lemma": "greu",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_418": {
+    "lemma": "simplu",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_419": {
+    "lemma": "dificil",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_420": {
+    "lemma": "important",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_421": {
+    "lemma": "necesar",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_422": {
+    "lemma": "posibil",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_423": {
+    "lemma": "imposibil",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_424": {
+    "lemma": "adevărat",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_425": {
+    "lemma": "fals",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_426": {
+    "lemma": "roșu",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_427": {
+    "lemma": "albastru",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_428": {
+    "lemma": "verde",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_429": {
+    "lemma": "galben",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_430": {
+    "lemma": "negru",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_431": {
+    "lemma": "alb",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_432": {
+    "lemma": "maro",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_433": {
+    "lemma": "gri",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_434": {
+    "lemma": "plin",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_435": {
+    "lemma": "gol",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_436": {
+    "lemma": "deschis",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_437": {
+    "lemma": "închis",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_438": {
+    "lemma": "drept",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_439": {
+    "lemma": "stâng",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "ro_440": {
+    "lemma": "în",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "ro_441": {
+    "lemma": "pe",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "ro_442": {
+    "lemma": "la",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "ro_443": {
+    "lemma": "cu",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "ro_444": {
+    "lemma": "fără",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "ro_445": {
+    "lemma": "pentru",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "ro_446": {
+    "lemma": "de_la",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "ro_447": {
+    "lemma": "la",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "ro_448": {
+    "lemma": "de",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "ro_449": {
+    "lemma": "despre",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "ro_450": {
+    "lemma": "și",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_451": {
+    "lemma": "dar",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_452": {
+    "lemma": "sau",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_453": {
+    "lemma": "pentru_că",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_454": {
+    "lemma": "dacă",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_455": {
+    "lemma": "când",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_456": {
+    "lemma": "unde",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_457": {
+    "lemma": "cum",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_458": {
+    "lemma": "de_ce",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_459": {
+    "lemma": "foarte",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_460": {
+    "lemma": "de_asemenea",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_461": {
+    "lemma": "întotdeauna",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_462": {
+    "lemma": "niciodată",
+    "tags": [
+      "<adv>",
+      "<neg>"
+    ]
+  },
+  "ro_463": {
+    "lemma": "da",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_464": {
+    "lemma": "nu",
+    "tags": [
+      "<adv>",
+      "<neg>"
+    ]
+  },
+  "ro_465": {
+    "lemma": "nu",
+    "tags": [
+      "<adv>",
+      "<neg>"
+    ]
+  },
+  "ro_466": {
+    "lemma": "aici",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_467": {
+    "lemma": "acolo",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_468": {
+    "lemma": "acum",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_469": {
+    "lemma": "atunci",
+    "tags": [
+      "<adv>"
+    ]
+  }
+}

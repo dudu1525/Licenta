@@ -1,0 +1,3478 @@
+{
+  "en_001": {
+    "lemma": "I",
+    "tags": [
+      "<prn>",
+      "<p1>",
+      "<sg>",
+      "<nom>"
+    ]
+  },
+  "en_002": {
+    "lemma": "me",
+    "tags": [
+      "<prn>",
+      "<p1>",
+      "<sg>",
+      "<acc>"
+    ]
+  },
+  "en_003": {
+    "lemma": "my",
+    "tags": [
+      "<prn>",
+      "<p1>",
+      "<sg>",
+      "<gen>"
+    ]
+  },
+  "en_004": {
+    "lemma": "mine",
+    "tags": [
+      "<prn>",
+      "<p1>",
+      "<sg>",
+      "<gen>"
+    ]
+  },
+  "en_005": {
+    "lemma": "you",
+    "tags": [
+      "<prn>",
+      "<p2>",
+      "<sg>",
+      "<nom>"
+    ]
+  },
+  "en_006": {
+    "lemma": "your",
+    "tags": [
+      "<prn>",
+      "<p2>",
+      "<sg>",
+      "<gen>"
+    ]
+  },
+  "en_007": {
+    "lemma": "he",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<sg>",
+      "<m>",
+      "<nom>"
+    ]
+  },
+  "en_008": {
+    "lemma": "him",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<sg>",
+      "<m>",
+      "<acc>"
+    ]
+  },
+  "en_009": {
+    "lemma": "his",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<sg>",
+      "<m>",
+      "<gen>"
+    ]
+  },
+  "en_010": {
+    "lemma": "she",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<sg>",
+      "<f>",
+      "<nom>"
+    ]
+  },
+  "en_011": {
+    "lemma": "her",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<sg>",
+      "<f>",
+      "<acc>"
+    ]
+  },
+  "en_012": {
+    "lemma": "we",
+    "tags": [
+      "<prn>",
+      "<p1>",
+      "<pl>",
+      "<nom>"
+    ]
+  },
+  "en_013": {
+    "lemma": "us",
+    "tags": [
+      "<prn>",
+      "<p1>",
+      "<pl>",
+      "<acc>"
+    ]
+  },
+  "en_014": {
+    "lemma": "they",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<pl>",
+      "<nom>"
+    ]
+  },
+  "en_015": {
+    "lemma": "them",
+    "tags": [
+      "<prn>",
+      "<p3>",
+      "<pl>",
+      "<acc>"
+    ]
+  },
+  "en_016": {
+    "lemma": "man",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_017": {
+    "lemma": "woman",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_018": {
+    "lemma": "child",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_019": {
+    "lemma": "boy",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_020": {
+    "lemma": "girl",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_021": {
+    "lemma": "baby",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_022": {
+    "lemma": "father",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_023": {
+    "lemma": "mother",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_024": {
+    "lemma": "son",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_025": {
+    "lemma": "daughter",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_026": {
+    "lemma": "brother",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_027": {
+    "lemma": "sister",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_028": {
+    "lemma": "grandfather",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_029": {
+    "lemma": "grandmother",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_030": {
+    "lemma": "uncle",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_031": {
+    "lemma": "aunt",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_032": {
+    "lemma": "cousin",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_033": {
+    "lemma": "husband",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_034": {
+    "lemma": "wife",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_035": {
+    "lemma": "friend",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_036": {
+    "lemma": "teacher",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_037": {
+    "lemma": "student",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_038": {
+    "lemma": "doctor",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_039": {
+    "lemma": "king",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_040": {
+    "lemma": "queen",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_041": {
+    "lemma": "dog",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_042": {
+    "lemma": "cat",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_043": {
+    "lemma": "horse",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_044": {
+    "lemma": "cow",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_045": {
+    "lemma": "pig",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_046": {
+    "lemma": "sheep",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_047": {
+    "lemma": "goat",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_048": {
+    "lemma": "chicken",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_049": {
+    "lemma": "duck",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_050": {
+    "lemma": "fish",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_051": {
+    "lemma": "bird",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_052": {
+    "lemma": "bear",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_053": {
+    "lemma": "wolf",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_054": {
+    "lemma": "fox",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_055": {
+    "lemma": "rabbit",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_056": {
+    "lemma": "mouse",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_057": {
+    "lemma": "lion",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_058": {
+    "lemma": "tiger",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_059": {
+    "lemma": "elephant",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_060": {
+    "lemma": "monkey",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_061": {
+    "lemma": "snake",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_062": {
+    "lemma": "frog",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_063": {
+    "lemma": "bee",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_064": {
+    "lemma": "ant",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_065": {
+    "lemma": "butterfly",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_066": {
+    "lemma": "head",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_067": {
+    "lemma": "face",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_068": {
+    "lemma": "eye",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_069": {
+    "lemma": "ear",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_070": {
+    "lemma": "nose",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_071": {
+    "lemma": "mouth",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_072": {
+    "lemma": "tooth",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_073": {
+    "lemma": "tongue",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_074": {
+    "lemma": "lip",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_075": {
+    "lemma": "neck",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_076": {
+    "lemma": "shoulder",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_077": {
+    "lemma": "arm",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_078": {
+    "lemma": "hand",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_079": {
+    "lemma": "finger",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_080": {
+    "lemma": "leg",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_081": {
+    "lemma": "foot",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_082": {
+    "lemma": "knee",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_083": {
+    "lemma": "back",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_084": {
+    "lemma": "chest",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_085": {
+    "lemma": "heart",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_086": {
+    "lemma": "blood",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_087": {
+    "lemma": "bone",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_088": {
+    "lemma": "skin",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_089": {
+    "lemma": "hair",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_090": {
+    "lemma": "brain",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_091": {
+    "lemma": "house",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_092": {
+    "lemma": "room",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_093": {
+    "lemma": "door",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_094": {
+    "lemma": "window",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_095": {
+    "lemma": "wall",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_096": {
+    "lemma": "floor",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_097": {
+    "lemma": "roof",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_098": {
+    "lemma": "table",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_099": {
+    "lemma": "chair",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_100": {
+    "lemma": "bed",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_101": {
+    "lemma": "desk",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_102": {
+    "lemma": "shelf",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_103": {
+    "lemma": "mirror",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_104": {
+    "lemma": "lamp",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_105": {
+    "lemma": "clock",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_106": {
+    "lemma": "key",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_107": {
+    "lemma": "lock",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_108": {
+    "lemma": "book",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_109": {
+    "lemma": "pen",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_110": {
+    "lemma": "paper",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_111": {
+    "lemma": "phone",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_112": {
+    "lemma": "computer",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_113": {
+    "lemma": "car",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_114": {
+    "lemma": "bicycle",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_115": {
+    "lemma": "road",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_116": {
+    "lemma": "street",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_117": {
+    "lemma": "bridge",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_118": {
+    "lemma": "shirt",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_119": {
+    "lemma": "pants",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_120": {
+    "lemma": "shoe",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_121": {
+    "lemma": "hat",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_122": {
+    "lemma": "coat",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_123": {
+    "lemma": "bag",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_124": {
+    "lemma": "money",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_125": {
+    "lemma": "coin",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_126": {
+    "lemma": "tool",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_127": {
+    "lemma": "knife",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_128": {
+    "lemma": "cup",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_129": {
+    "lemma": "plate",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_130": {
+    "lemma": "bottle",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_131": {
+    "lemma": "sun",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_132": {
+    "lemma": "moon",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_133": {
+    "lemma": "star",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_134": {
+    "lemma": "sky",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_135": {
+    "lemma": "cloud",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_136": {
+    "lemma": "rain",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_137": {
+    "lemma": "snow",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_138": {
+    "lemma": "wind",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_139": {
+    "lemma": "storm",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_140": {
+    "lemma": "sea",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_141": {
+    "lemma": "river",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_142": {
+    "lemma": "lake",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_143": {
+    "lemma": "mountain",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_144": {
+    "lemma": "hill",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_145": {
+    "lemma": "valley",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_146": {
+    "lemma": "forest",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_147": {
+    "lemma": "tree",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_148": {
+    "lemma": "flower",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_149": {
+    "lemma": "grass",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_150": {
+    "lemma": "leaf",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_151": {
+    "lemma": "stone",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_152": {
+    "lemma": "sand",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_153": {
+    "lemma": "earth",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_154": {
+    "lemma": "fire",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_155": {
+    "lemma": "ice",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_156": {
+    "lemma": "bread",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_157": {
+    "lemma": "meat",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_158": {
+    "lemma": "fish_food",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_159": {
+    "lemma": "egg",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_160": {
+    "lemma": "cheese",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_161": {
+    "lemma": "butter",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_162": {
+    "lemma": "milk",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_163": {
+    "lemma": "water",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_164": {
+    "lemma": "wine",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_165": {
+    "lemma": "beer",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_166": {
+    "lemma": "coffee",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_167": {
+    "lemma": "tea",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_168": {
+    "lemma": "juice",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_169": {
+    "lemma": "soup",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_170": {
+    "lemma": "apple",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_171": {
+    "lemma": "pear",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_172": {
+    "lemma": "grape",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_173": {
+    "lemma": "orange",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_174": {
+    "lemma": "banana",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_175": {
+    "lemma": "tomato",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_176": {
+    "lemma": "potato",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_177": {
+    "lemma": "onion",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_178": {
+    "lemma": "carrot",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_179": {
+    "lemma": "salt",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_180": {
+    "lemma": "sugar",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_181": {
+    "lemma": "oil",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_182": {
+    "lemma": "rice",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_183": {
+    "lemma": "cake",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_184": {
+    "lemma": "chocolate",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<mass>"
+    ]
+  },
+  "en_185": {
+    "lemma": "ice_cream",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_186": {
+    "lemma": "time",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_187": {
+    "lemma": "year",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_188": {
+    "lemma": "month_l",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_189": {
+    "lemma": "week",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_190": {
+    "lemma": "day",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_191": {
+    "lemma": "hour",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_192": {
+    "lemma": "minute",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_193": {
+    "lemma": "second",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_194": {
+    "lemma": "morning",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_195": {
+    "lemma": "afternoon",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_196": {
+    "lemma": "evening",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_197": {
+    "lemma": "night",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_198": {
+    "lemma": "today",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_199": {
+    "lemma": "tomorrow",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_200": {
+    "lemma": "yesterday",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_201": {
+    "lemma": "Monday",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_202": {
+    "lemma": "Tuesday",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_203": {
+    "lemma": "Wednesday",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_204": {
+    "lemma": "Thursday",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_205": {
+    "lemma": "Friday",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_206": {
+    "lemma": "Saturday",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_207": {
+    "lemma": "Sunday",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_208": {
+    "lemma": "January",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_209": {
+    "lemma": "February",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_210": {
+    "lemma": "March",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_211": {
+    "lemma": "April",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_212": {
+    "lemma": "May_m",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_213": {
+    "lemma": "June",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_214": {
+    "lemma": "July",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_215": {
+    "lemma": "August",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_216": {
+    "lemma": "September",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_217": {
+    "lemma": "October",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_218": {
+    "lemma": "November",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_219": {
+    "lemma": "December",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_220": {
+    "lemma": "spring",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_221": {
+    "lemma": "summer",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_222": {
+    "lemma": "autumn",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_223": {
+    "lemma": "winter",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_224": {
+    "lemma": "zero",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_225": {
+    "lemma": "one",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_226": {
+    "lemma": "two",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_227": {
+    "lemma": "three",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_228": {
+    "lemma": "four",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_229": {
+    "lemma": "five",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_230": {
+    "lemma": "six",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_231": {
+    "lemma": "seven",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_232": {
+    "lemma": "eight",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_233": {
+    "lemma": "nine",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_234": {
+    "lemma": "ten",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_235": {
+    "lemma": "eleven",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_236": {
+    "lemma": "twelve",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_237": {
+    "lemma": "thirteen",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_238": {
+    "lemma": "fourteen",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_239": {
+    "lemma": "fifteen",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_240": {
+    "lemma": "sixteen",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_241": {
+    "lemma": "seventeen",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_242": {
+    "lemma": "eighteen",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_243": {
+    "lemma": "nineteen",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_244": {
+    "lemma": "twenty",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_245": {
+    "lemma": "thirty",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_246": {
+    "lemma": "forty",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_247": {
+    "lemma": "fifty",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_248": {
+    "lemma": "hundred",
+    "tags": [
+      "<n>",
+      "<sg>",
+      "<count>"
+    ]
+  },
+  "en_249": {
+    "lemma": "be",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_250": {
+    "lemma": "have",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_251": {
+    "lemma": "do",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_252": {
+    "lemma": "go",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_253": {
+    "lemma": "come",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_254": {
+    "lemma": "see",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_255": {
+    "lemma": "hear",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_256": {
+    "lemma": "say",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "en_257": {
+    "lemma": "give",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "en_258": {
+    "lemma": "take",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_259": {
+    "lemma": "know",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_260": {
+    "lemma": "think",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_261": {
+    "lemma": "want",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<gov_conj>"
+    ]
+  },
+  "en_262": {
+    "lemma": "can",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<gov_conj>"
+    ]
+  },
+  "en_263": {
+    "lemma": "must",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<gov_conj>"
+    ]
+  },
+  "en_264": {
+    "lemma": "love",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_265": {
+    "lemma": "hate",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_266": {
+    "lemma": "like",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_267": {
+    "lemma": "eat",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_268": {
+    "lemma": "drink",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_269": {
+    "lemma": "sleep",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_270": {
+    "lemma": "wake",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_271": {
+    "lemma": "walk",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_272": {
+    "lemma": "run",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_273": {
+    "lemma": "sit",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "en_274": {
+    "lemma": "stand",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_275": {
+    "lemma": "write",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_276": {
+    "lemma": "read",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_277": {
+    "lemma": "speak",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_278": {
+    "lemma": "listen",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_279": {
+    "lemma": "look",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_280": {
+    "lemma": "watch",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_281": {
+    "lemma": "find",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_282": {
+    "lemma": "lose",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_283": {
+    "lemma": "buy",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_284": {
+    "lemma": "sell",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_285": {
+    "lemma": "pay",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_286": {
+    "lemma": "work",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_287": {
+    "lemma": "play",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "en_288": {
+    "lemma": "learn",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_289": {
+    "lemma": "teach",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "en_290": {
+    "lemma": "help",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_291": {
+    "lemma": "ask",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "en_292": {
+    "lemma": "answer",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_293": {
+    "lemma": "call",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_294": {
+    "lemma": "wait",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_295": {
+    "lemma": "open",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_296": {
+    "lemma": "close",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_297": {
+    "lemma": "start",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_298": {
+    "lemma": "finish",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_299": {
+    "lemma": "stop",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_300": {
+    "lemma": "continue",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_301": {
+    "lemma": "try",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_302": {
+    "lemma": "need",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_303": {
+    "lemma": "use",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_304": {
+    "lemma": "make",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_305": {
+    "lemma": "create",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_306": {
+    "lemma": "build",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_307": {
+    "lemma": "break",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_308": {
+    "lemma": "fix",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_309": {
+    "lemma": "clean",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_310": {
+    "lemma": "wash",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ref>"
+    ]
+  },
+  "en_311": {
+    "lemma": "cook",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_312": {
+    "lemma": "cut",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_313": {
+    "lemma": "pull",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_314": {
+    "lemma": "push",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_315": {
+    "lemma": "throw",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_316": {
+    "lemma": "catch",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_317": {
+    "lemma": "fall",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_318": {
+    "lemma": "rise",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "en_319": {
+    "lemma": "fly",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_320": {
+    "lemma": "swim",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_321": {
+    "lemma": "drive",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_322": {
+    "lemma": "ride",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_323": {
+    "lemma": "travel",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_324": {
+    "lemma": "arrive",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_325": {
+    "lemma": "leave",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_326": {
+    "lemma": "return",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "en_327": {
+    "lemma": "enter",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_328": {
+    "lemma": "exit",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_329": {
+    "lemma": "live",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_330": {
+    "lemma": "die",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_331": {
+    "lemma": "kill",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_332": {
+    "lemma": "born",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "en_333": {
+    "lemma": "grow",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_334": {
+    "lemma": "change",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_335": {
+    "lemma": "become",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_336": {
+    "lemma": "stay",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_337": {
+    "lemma": "feel",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_338": {
+    "lemma": "seem",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_339": {
+    "lemma": "appear",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_340": {
+    "lemma": "disappear",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_341": {
+    "lemma": "happen",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "en_342": {
+    "lemma": "exist",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_343": {
+    "lemma": "belong",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_344": {
+    "lemma": "contain",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_345": {
+    "lemma": "include",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_346": {
+    "lemma": "mean",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_347": {
+    "lemma": "remember",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ref>"
+    ]
+  },
+  "en_348": {
+    "lemma": "forget",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_349": {
+    "lemma": "believe",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_350": {
+    "lemma": "hope",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<gov_conj>"
+    ]
+  },
+  "en_351": {
+    "lemma": "fear",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ref>"
+    ]
+  },
+  "en_352": {
+    "lemma": "wish",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<gov_conj>"
+    ]
+  },
+  "en_353": {
+    "lemma": "choose",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_354": {
+    "lemma": "decide",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_355": {
+    "lemma": "agree",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_356": {
+    "lemma": "disagree",
+    "tags": [
+      "<vb>",
+      "<intr>"
+    ]
+  },
+  "en_357": {
+    "lemma": "promise",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "en_358": {
+    "lemma": "offer",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "en_359": {
+    "lemma": "receive",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_360": {
+    "lemma": "send",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "en_361": {
+    "lemma": "bring",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_362": {
+    "lemma": "carry",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_363": {
+    "lemma": "hold",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_364": {
+    "lemma": "put",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_365": {
+    "lemma": "move",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_366": {
+    "lemma": "turn",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_367": {
+    "lemma": "follow",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_368": {
+    "lemma": "lead",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_369": {
+    "lemma": "meet",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_370": {
+    "lemma": "visit",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_371": {
+    "lemma": "invite",
+    "tags": [
+      "<vb>",
+      "<tran>",
+      "<ditrans>"
+    ]
+  },
+  "en_372": {
+    "lemma": "thank",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_373": {
+    "lemma": "apologize",
+    "tags": [
+      "<vb>",
+      "<intr>",
+      "<ref>"
+    ]
+  },
+  "en_374": {
+    "lemma": "celebrate",
+    "tags": [
+      "<vb>",
+      "<tran>"
+    ]
+  },
+  "en_375": {
+    "lemma": "good",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_376": {
+    "lemma": "bad",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_377": {
+    "lemma": "big",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_378": {
+    "lemma": "small",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_379": {
+    "lemma": "long",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_380": {
+    "lemma": "short",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_381": {
+    "lemma": "high",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_382": {
+    "lemma": "low",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_383": {
+    "lemma": "wide",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_384": {
+    "lemma": "narrow",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_385": {
+    "lemma": "thick",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_386": {
+    "lemma": "thin",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_387": {
+    "lemma": "heavy",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_388": {
+    "lemma": "light",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_389": {
+    "lemma": "fast",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_390": {
+    "lemma": "slow",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_391": {
+    "lemma": "hot",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_392": {
+    "lemma": "cold",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_393": {
+    "lemma": "warm",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_394": {
+    "lemma": "cool",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_395": {
+    "lemma": "new",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_396": {
+    "lemma": "old",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_397": {
+    "lemma": "young",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_398": {
+    "lemma": "beautiful",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_399": {
+    "lemma": "ugly",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_400": {
+    "lemma": "clean",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_401": {
+    "lemma": "dirty",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_402": {
+    "lemma": "rich",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_403": {
+    "lemma": "poor",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_404": {
+    "lemma": "happy",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_405": {
+    "lemma": "sad",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_406": {
+    "lemma": "angry",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_407": {
+    "lemma": "tired",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_408": {
+    "lemma": "hungry",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_409": {
+    "lemma": "thirsty",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_410": {
+    "lemma": "sick",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_411": {
+    "lemma": "healthy",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_412": {
+    "lemma": "strong",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_413": {
+    "lemma": "weak",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_414": {
+    "lemma": "smart",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_415": {
+    "lemma": "stupid",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_416": {
+    "lemma": "easy",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_417": {
+    "lemma": "hard",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_418": {
+    "lemma": "simple",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_419": {
+    "lemma": "difficult",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_420": {
+    "lemma": "important",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_421": {
+    "lemma": "necessary",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_422": {
+    "lemma": "possible",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_423": {
+    "lemma": "impossible",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_424": {
+    "lemma": "true",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_425": {
+    "lemma": "false",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_426": {
+    "lemma": "red",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_427": {
+    "lemma": "blue",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_428": {
+    "lemma": "green",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_429": {
+    "lemma": "yellow",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_430": {
+    "lemma": "black",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_431": {
+    "lemma": "white",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_432": {
+    "lemma": "brown",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_433": {
+    "lemma": "gray",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_434": {
+    "lemma": "full",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_435": {
+    "lemma": "empty",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_436": {
+    "lemma": "open",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_437": {
+    "lemma": "closed",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_438": {
+    "lemma": "right",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_439": {
+    "lemma": "left",
+    "tags": [
+      "<adj>"
+    ]
+  },
+  "en_440": {
+    "lemma": "in",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "en_441": {
+    "lemma": "on",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "en_442": {
+    "lemma": "at",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "en_443": {
+    "lemma": "with",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "en_444": {
+    "lemma": "without",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "en_445": {
+    "lemma": "for",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "en_446": {
+    "lemma": "from",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "en_447": {
+    "lemma": "to",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "en_448": {
+    "lemma": "by",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "en_449": {
+    "lemma": "about",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "en_450": {
+    "lemma": "and",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_451": {
+    "lemma": "but",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_452": {
+    "lemma": "or",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_453": {
+    "lemma": "because",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_454": {
+    "lemma": "if",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_455": {
+    "lemma": "when",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_456": {
+    "lemma": "where",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_457": {
+    "lemma": "how",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_458": {
+    "lemma": "why",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_459": {
+    "lemma": "very",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_460": {
+    "lemma": "also",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_461": {
+    "lemma": "always",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_462": {
+    "lemma": "never",
+    "tags": [
+      "<adv>",
+      "<neg>"
+    ]
+  },
+  "en_463": {
+    "lemma": "yes",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_464": {
+    "lemma": "no",
+    "tags": [
+      "<adv>",
+      "<neg>"
+    ]
+  },
+  "en_465": {
+    "lemma": "not",
+    "tags": [
+      "<adv>",
+      "<neg>"
+    ]
+  },
+  "en_466": {
+    "lemma": "here",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_467": {
+    "lemma": "there",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_468": {
+    "lemma": "now",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_469": {
+    "lemma": "then",
+    "tags": [
+      "<adv>"
+    ]
+  }
+}

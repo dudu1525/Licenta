@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    id("com.chaquo.python")
 }
 
 android {
@@ -38,16 +37,9 @@ android {
         jvmTarget = "11"
     }
 }
-chaquopy {
-    defaultConfig {
-        pip {
-            install("onnxruntime")
-            install("sentencepiece")
-            install("numpy")
-        }
-    }
-}
+
 dependencies {
+   /* implementation("com.microsoft.onnxruntime:onnxruntime-android:1.17.0")*/
     implementation("org.java-websocket:Java-WebSocket:1.5.3")
     implementation("net.java.dev.jna:jna:5.13.0@aar")
     implementation("com.alphacephei:vosk-android:0.3.32@aar")

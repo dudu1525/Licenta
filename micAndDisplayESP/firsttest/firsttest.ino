@@ -26,7 +26,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 WebSocketsClient webSocket;
 
-void setupI2S() {///////////////////////////////////////////////
+void initMicrophone() {///////////////////////////////////////////////
     const i2s_config_t i2s_config = {
         .mode = i2s_mode_t(I2S_MODE_MASTER | I2S_MODE_RX),
         .sample_rate = 16000,
@@ -52,10 +52,10 @@ void setupI2S() {///////////////////////////////////////////////
 void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
     switch(type) {
         case WStype_DISCONNECTED:
-            Serial.println("Disconnected from Phone!");
+           // Serial.println("Disconnected from Phone!");
             break;
         case WStype_CONNECTED://connected to phone
-            Serial.println("Connected to Phone!");
+           // Serial.println("Connected to Phone!");
             display.clearDisplay();
             display.setCursor(0,0); 
             display.print("Connected!");
@@ -63,7 +63,7 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
             break;
         case WStype_TEXT://received text
            { String aiText = (char*)payload;
-            Serial.println(aiText);
+            //Serial.println(aiText);
             
             display.clearDisplay();
             display.setCursor(0,0);
@@ -73,13 +73,11 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
             break;}
     }
 }
-
-void setup() {
-    Serial.begin(115200);
-
+void initDisplay()
+{
     Wire.begin(8, 9); //scl, sda setup on pins 8 and 9
     if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { 
-        Serial.println(F("OLED allocation failed"));
+        //Serial.println(F("OLED allocation failed"));
         for(;;);
     }
     display.clearDisplay();
@@ -89,8 +87,13 @@ void setup() {
     display.setCursor(0,0);
     display.print("Connecting Wi-Fi...");
     display.display();
+}
+void setup() {
+    //Serial.begin(115200);
 
-        setupI2S();
+        initDisplay();
+
+        initMicrophone();
 
 
 
@@ -103,7 +106,7 @@ void setup() {
     WiFi.setTxPower(WIFI_POWER_8_5dBm);//<done in order for it to work and manage the connection due to bad antenna
     while (WiFi.status() != WL_CONNECTED) {
         delay(500);
-        Serial.print(".");
+       // Serial.print(".");
     }
     
     display.clearDisplay();
@@ -130,7 +133,7 @@ void loop() {
         display.clearDisplay();
         display.display();
         lastTextTime = 0; 
-         Serial.println("Screen cleared after 3 seconds of silence."); //debug
+        // Serial.println("Screen cleared after 3 seconds of silence."); //debug
     }
 
        // RECORD AUDIO AND SEND TO PHONE////////////////////////////////////////////////////////

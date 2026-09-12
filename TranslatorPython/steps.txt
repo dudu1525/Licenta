@@ -1,0 +1,96 @@
+Steps for Translation:
+
+1. tokenization of the phrase/text
+-separate into words a
+2. Morphological analyser of what each word is
+eg: The egg is boiled  >egg - noun, is - verb etc
+
+3. Source Grammar Parser
+->builds structure of the words (like a tree) -> whaat a valid sentence looks like
+(source lang struct rules)
+
+4. Translator -> uses the bilingual dictionary and modifies the created 'tree'
+
+5.Structural transfer (target map rules) -> modifies the tree structure to match the new language structure
+(target lan struct rules)
+
+6. TL Lang analyzser (like in 2 but for target lan)
+ex:
+bărbat + [masc, sg, definite] → "bărbatul"
+
+
+7. TL Parser 
+constructs the linear text, not like a tree structure
+ 
+
+   Required external information to do the translation:
+
+SL Dictionary ->info about the words (used by the morph analyzer)
+
+Billingual dictionary -> maps from the SL (source lan) to the TL (target lan)
+
+TL Dictionary -> info about words in target lan
+
+
+
+
+
+DOC:
+types of translation
+what is rbts
+
+words chosen
+tags chosen
+
+how the architecture works
+
+
+difficulty:
+Finding actual tagged words/dictionary in order to use for the translation
+>> created by myself in json 
+^ how did i choose those words
+<tags> all explained
+
+!!
+features to be encoded in the lexicon based based on part of speech
+features based on morphology and the language
+
+
+#!----------------------------<tags>
+
+1. <n> -> noun (boy/girl)
+
+2. <prn> -> pronoun (he/him)
+
+3. <vb> -> verb (to do, to have)
+
+4. <adj> -> adjective
+
+5. <adv> -> adverb
+
+6. <pr> -> preposition (in, on)
+
+7. <cnj> -> conjunction (and, or)
+
+8. <m>, <f>, <nt> -> masculine/feminine/neuter
+
+9. <sg>, <pl> -> singular, plural (noun)
+
+10. <p1>, <p2>, <p3> -> person 1,2,3 (prn)
+
+11. <nom>, <acc>, <dat>, <gen> -> cases: nominative, accusative, genitive, dative (noun/pron specific)
+
+12. <ref> -> reflexive verb (like washes himself, he goes etc)
+
+13. <tn>, <cl> -> tonic/strong or clitic/weak pronoun (eg: the gift for me-tonic - pentru mine, he sees me ma vede)
+
+14. <pres>, <past>, <conj> -> present, past, subjunctive mood ( to eat -> sa mananc)
+
+15. <tran>, <intr> -> transitive/intransitive verbs -> transitive -> have an object upon which action was taken
+      > i baked a cake, without cake is incomplete, itr-> i sleep
+
+16. <count>, <mass> countable noun(apple), incountable (water)
+
+17. <anim>, <human> -> refers to an animated object or human, requires a special 'pe' rules
+
+18. <neg> -> double negation rule (niciodata n-am dormit)
