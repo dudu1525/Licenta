@@ -3478,59 +3478,58 @@
     ]
   },
   "ro_456": {
+    "lemma": "de",
+    "tags": [
+      "<pr>"
+    ]
+  },
+  "ro_457": {
     "lemma": "unde",
     "tags": [
       "<adv>"
     ]
   },
-  "ro_457": {
+  "ro_458": {
     "lemma": "cum",
     "tags": [
       "<adv>"
     ]
   },
-  "ro_458": {
+  "ro_459": {
     "lemma": "de_ce",
     "tags": [
       "<adv>"
     ]
   },
-  "ro_459": {
+  "ro_460": {
     "lemma": "foarte",
     "tags": [
       "<adv>"
     ]
   },
-  "ro_460": {
+  "ro_461": {
     "lemma": "de_asemenea",
     "tags": [
       "<adv>"
     ]
   },
-  "ro_461": {
+  "ro_462": {
     "lemma": "întotdeauna",
     "tags": [
       "<adv>"
     ]
   },
-  "ro_462": {
+  "ro_463": {
     "lemma": "niciodată",
     "tags": [
       "<adv>",
       "<neg>"
     ]
   },
-  "ro_463": {
+  "ro_464": {
     "lemma": "da",
     "tags": [
       "<adv>"
-    ]
-  },
-  "ro_464": {
-    "lemma": "nu",
-    "tags": [
-      "<adv>",
-      "<neg>"
     ]
   },
   "ro_465": {
@@ -3541,27 +3540,397 @@
     ]
   },
   "ro_466": {
+    "lemma": "nu",
+    "tags": [
+      "<adv>",
+      "<neg>"
+    ]
+  },
+  "ro_467": {
     "lemma": "aici",
     "tags": [
       "<adv>"
     ]
   },
-  "ro_467": {
+  "ro_468": {
     "lemma": "acolo",
     "tags": [
       "<adv>"
     ]
   },
-  "ro_468": {
+  "ro_469": {
     "lemma": "acum",
     "tags": [
       "<adv>"
     ]
   },
-  "ro_469": {
+  "ro_470": {
     "lemma": "atunci",
     "tags": [
       "<adv>"
+    ]
+  },
+  "ro_471": {
+    "lemma": "the",
+    "tags": [
+      "<art>",
+      "<def>"
+    ]
+  },
+  "ro_472": {
+    "lemma": "a",
+    "tags": [
+      "<art>",
+      "<indef>"
+    ]
+  },
+  "ro_473": {
+    "lemma": "a",
+    "tags": [
+      "<art>",
+      "<indef>"
+    ]
+  },
+  "ro_474": {
+    "lemma": "acest",
+    "tags": [
+      "<prn>",
+      "<sg>"
+    ]
+  },
+  "ro_475": {
+    "lemma": "acel",
+    "tags": [
+      "<prn>",
+      "<sg>"
+    ]
+  },
+  "ro_476": {
+    "lemma": "acești",
+    "tags": [
+      "<prn>",
+      "<pl>"
+    ]
+  },
+  "ro_477": {
+    "lemma": "acei",
+    "tags": [
+      "<prn>",
+      "<pl>"
+    ]
+  },
+  "ro_478": {
+    "lemma": "ar trebui",
+    "tags": [
+      "<vb>"
+    ]
+  },
+  "ro_479": {
+    "lemma": "ar putea",
+    "tags": [
+      "<vb>"
+    ]
+  },
+  "ro_480": {
+    "lemma": "ar putea",
+    "tags": [
+      "<vb>"
+    ]
+  },
+  "ro_481": {
+    "lemma": "poate",
+    "tags": [
+      "<vb>"
+    ]
+  },
+  "ro_482": {
+    "lemma": "că",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_483": {
+    "lemma": "deși",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_484": {
+    "lemma": "în timp ce",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_485": {
+    "lemma": "dacă nu",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_486": {
+    "lemma": "până când",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_487": {
+    "lemma": "dacă",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_488": {
+    "lemma": "ca să",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_489": {
+    "lemma": "ca să",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_490": {
+    "lemma": "mulți",
+    "tags": [
+      "<num>",
+      "<pl>",
+      "<m>"
+    ]
+  },
+  "ro_491": {
+    "lemma": "mult",
+    "tags": [
+      "<num>",
+      "<mass>"
+    ]
+  },
+  "ro_492": {
+    "lemma": "puțini",
+    "tags": [
+      "<num>",
+      "<pl>"
+    ]
+  },
+  "ro_493": {
+    "lemma": "puțin",
+    "tags": [
+      "<num>",
+      "<mass>"
+    ]
+  },
+  "ro_494": {
+    "lemma": "niște",
+    "tags": [
+      "<prn>"
+    ]
+  },
+  "ro_495": {
+    "lemma": "orice",
+    "tags": [
+      "<num>"
+    ]
+  },
+  "ro_496": {
+    "lemma": "fiecare",
+    "tags": [
+      "<prn>",
+      "<sg>"
+    ]
+  },
+  "ro_497": {
+    "lemma": "toți",
+    "tags": [
+      "<prn>",
+      "<pl>"
+    ]
+  },
+  "ro_498": {
+    "lemma": "fiecare",
+    "tags": [
+      "<num>",
+      "<sg>"
+    ]
+  },
+  "ro_499": {
+    "lemma": "amândoi",
+    "tags": [
+      "<num>"
+    ]
+  },
+  "ro_500": {
+    "lemma": "câțiva",
+    "tags": [
+      "<prn>",
+      "<pl>"
+    ]
+  },
+  "ro_501": {
+    "lemma": "destul",
+    "tags": [
+      "<num>"
+    ]
+  },
+  "ro_502": {
+    "lemma": "alt",
+    "tags": [
+      "<prn>",
+      "<sg>"
+    ]
+  },
+  "ro_503": {
+    "lemma": "alt",
+    "tags": [
+      "<prn>"
+    ]
+  },
+  "ro_504": {
+    "lemma": "prea",
+    "tags": [
+      "<adv>",
+      "<deg>"
+    ]
+  },
+  "ro_505": {
+    "lemma": "mai mult",
+    "tags": [
+      "<adv>",
+      "<deg>"
+    ]
+  },
+  "ro_506": {
+    "lemma": "cel mai",
+    "tags": [
+      "<adv>",
+      "<deg>"
+    ]
+  },
+  "ro_507": {
+    "lemma": "mai puțin",
+    "tags": [
+      "<adv>",
+      "<deg>"
+    ]
+  },
+  "ro_508": {
+    "lemma": "atât de",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_509": {
+    "lemma": "atât de",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_510": {
+    "lemma": "destul de",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_511": {
+    "lemma": "destul de",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_512": {
+    "lemma": "aproape",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_513": {
+    "lemma": "tocmai",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_514": {
+    "lemma": "doar",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_515": {
+    "lemma": "chiar",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_516": {
+    "lemma": "încă",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_517": {
+    "lemma": "deja",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_518": {
+    "lemma": "încă",
+    "tags": [
+      "<adv>",
+      "<neg>"
+    ]
+  },
+  "ro_519": {
+    "lemma": "din nou",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_520": {
+    "lemma": "decât",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "ro_521": {
+    "lemma": "la fel de",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "ro_522": {
+    "lemma": "nimic",
+    "tags": [
+      "<prn>",
+      "<neg>"
+    ]
+  },
+  "ro_523": {
+    "lemma": "nimeni",
+    "tags": [
+      "<prn>",
+      "<neg>"
+    ]
+  },
+  "ro_524": {
+    "lemma": "nicăieri",
+    "tags": [
+      "<adv>",
+      "<neg>"
+    ]
+  },
+  "ro_525": {
+    "lemma": "nici",
+    "tags": [
+      "<cnj>",
+      "<neg>"
+    ]
+  },
+  "ro_526": {
+    "lemma": "nici",
+    "tags": [
+      "<cnj>",
+      "<neg>"
     ]
   }
 }

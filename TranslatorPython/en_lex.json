@@ -3389,90 +3389,459 @@
     ]
   },
   "en_456": {
+    "lemma": "of",
+    "tags": [
+      "<pr>",
+      "<gen_marker>"
+    ]
+  },
+  "en_457": {
     "lemma": "where",
     "tags": [
       "<adv>"
     ]
   },
-  "en_457": {
+  "en_458": {
     "lemma": "how",
     "tags": [
       "<adv>"
     ]
   },
-  "en_458": {
+  "en_459": {
     "lemma": "why",
     "tags": [
       "<adv>"
     ]
   },
-  "en_459": {
+  "en_460": {
     "lemma": "very",
     "tags": [
       "<adv>"
     ]
   },
-  "en_460": {
+  "en_461": {
     "lemma": "also",
     "tags": [
       "<adv>"
     ]
   },
-  "en_461": {
+  "en_462": {
     "lemma": "always",
     "tags": [
       "<adv>"
     ]
   },
-  "en_462": {
+  "en_463": {
     "lemma": "never",
     "tags": [
       "<adv>",
       "<neg>"
     ]
   },
-  "en_463": {
+  "en_464": {
     "lemma": "yes",
     "tags": [
       "<adv>"
     ]
   },
-  "en_464": {
+  "en_465": {
     "lemma": "no",
     "tags": [
       "<adv>",
       "<neg>"
     ]
   },
-  "en_465": {
+  "en_466": {
     "lemma": "not",
     "tags": [
       "<adv>",
       "<neg>"
     ]
   },
-  "en_466": {
+  "en_467": {
     "lemma": "here",
     "tags": [
       "<adv>"
     ]
   },
-  "en_467": {
+  "en_468": {
     "lemma": "there",
     "tags": [
       "<adv>"
     ]
   },
-  "en_468": {
+  "en_469": {
     "lemma": "now",
     "tags": [
       "<adv>"
     ]
   },
-  "en_469": {
+  "en_470": {
     "lemma": "then",
     "tags": [
       "<adv>"
+    ]
+  },
+  "en_471": {
+    "lemma": "the",
+    "tags": [
+      "<art>",
+      "<def>"
+    ]
+  },
+  "en_472": {
+    "lemma": "a",
+    "tags": [
+      "<art>",
+      "<indef>"
+    ]
+  },
+  "en_473": {
+    "lemma": "an",
+    "tags": [
+      "<art>",
+      "<indef>"
+    ]
+  },
+  "en_474": {
+    "lemma": "this",
+    "tags": [
+      "<prn>",
+      "<sg>"
+    ]
+  },
+  "en_475": {
+    "lemma": "that",
+    "tags": [
+      "<prn>",
+      "<sg>"
+    ]
+  },
+  "en_476": {
+    "lemma": "these",
+    "tags": [
+      "<prn>",
+      "<pl>"
+    ]
+  },
+  "en_477": {
+    "lemma": "those",
+    "tags": [
+      "<prn>",
+      "<pl>"
+    ]
+  },
+  "en_478": {
+    "lemma": "should",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_479": {
+    "lemma": "could",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_480": {
+    "lemma": "might",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_481": {
+    "lemma": "may",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_482": {
+    "lemma": "that",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_483": {
+    "lemma": "although",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_484": {
+    "lemma": "while",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_485": {
+    "lemma": "unless",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_486": {
+    "lemma": "until",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_487": {
+    "lemma": "whether",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_488": {
+    "lemma": "so_that",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_489": {
+    "lemma": "in_order_to",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_490": {
+    "lemma": "many",
+    "tags": [
+      "<num>",
+      "<pl>"
+    ]
+  },
+  "en_491": {
+    "lemma": "much",
+    "tags": [
+      "<num>",
+      "<mass>"
+    ]
+  },
+  "en_492": {
+    "lemma": "few",
+    "tags": [
+      "<num>",
+      "<pl>"
+    ]
+  },
+  "en_493": {
+    "lemma": "little",
+    "tags": [
+      "<num>",
+      "<mass>"
+    ]
+  },
+  "en_494": {
+    "lemma": "some",
+    "tags": [
+      "<prn>"
+    ]
+  },
+  "en_495": {
+    "lemma": "any",
+    "tags": [
+      "<num>"
+    ]
+  },
+  "en_496": {
+    "lemma": "every",
+    "tags": [
+      "<prn>",
+      "<sg>"
+    ]
+  },
+  "en_497": {
+    "lemma": "all",
+    "tags": [
+      "<prn>",
+      "<pl>"
+    ]
+  },
+  "en_498": {
+    "lemma": "each",
+    "tags": [
+      "<num>",
+      "<sg>"
+    ]
+  },
+  "en_499": {
+    "lemma": "both",
+    "tags": [
+      "<num>"
+    ]
+  },
+  "en_500": {
+    "lemma": "several",
+    "tags": [
+      "<prn>",
+      "<pl>"
+    ]
+  },
+  "en_501": {
+    "lemma": "enough",
+    "tags": [
+      "<num>"
+    ]
+  },
+  "en_502": {
+    "lemma": "another",
+    "tags": [
+      "<prn>",
+      "<sg>"
+    ]
+  },
+  "en_503": {
+    "lemma": "other",
+    "tags": [
+      "<prn>"
+    ]
+  },
+  "en_504": {
+    "lemma": "too",
+    "tags": [
+      "<adv>",
+      "<deg>"
+    ]
+  },
+  "en_505": {
+    "lemma": "more",
+    "tags": [
+      "<adv>",
+      "<deg>"
+    ]
+  },
+  "en_506": {
+    "lemma": "most",
+    "tags": [
+      "<adv>",
+      "<deg>"
+    ]
+  },
+  "en_507": {
+    "lemma": "less",
+    "tags": [
+      "<adv>",
+      "<deg>"
+    ]
+  },
+  "en_508": {
+    "lemma": "so",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_509": {
+    "lemma": "such",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_510": {
+    "lemma": "quite",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_511": {
+    "lemma": "rather",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_512": {
+    "lemma": "almost",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_513": {
+    "lemma": "just",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_514": {
+    "lemma": "only",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_515": {
+    "lemma": "even",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_516": {
+    "lemma": "still",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_517": {
+    "lemma": "already",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_518": {
+    "lemma": "yet",
+    "tags": [
+      "<adv>",
+      "<neg>"
+    ]
+  },
+  "en_519": {
+    "lemma": "again",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_520": {
+    "lemma": "than",
+    "tags": [
+      "<cnj>"
+    ]
+  },
+  "en_521": {
+    "lemma": "as",
+    "tags": [
+      "<adv>"
+    ]
+  },
+  "en_522": {
+    "lemma": "nothing",
+    "tags": [
+      "<prn>",
+      "<neg>"
+    ]
+  },
+  "en_523": {
+    "lemma": "nobody",
+    "tags": [
+      "<prn>",
+      "<neg>"
+    ]
+  },
+  "en_524": {
+    "lemma": "nowhere",
+    "tags": [
+      "<adv>",
+      "<neg>"
+    ]
+  },
+  "en_525": {
+    "lemma": "neither",
+    "tags": [
+      "<cnj>",
+      "<neg>"
+    ]
+  },
+  "en_526": {
+    "lemma": "nor",
+    "tags": [
+      "<cnj>",
+      "<neg>"
     ]
   }
 }

@@ -1,0 +1,1 @@
+#this class will manage getting an input a string and then returning the lemma+tags format

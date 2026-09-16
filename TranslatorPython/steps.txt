@@ -94,3 +94,7 @@ features based on morphology and the language
 17. <anim>, <human> -> refers to an animated object or human, requires a special 'pe' rules
 
 18. <neg> -> double negation rule (niciodata n-am dormit)
+
+19 <num> -> numeral word 
+
+20 <art> -> article

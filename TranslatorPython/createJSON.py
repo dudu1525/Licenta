@@ -263,6 +263,7 @@ function_words = [
     ("because","pentru_că",["<cnj>"],["<cnj>"]),
     ("if","dacă",["<cnj>"],["<cnj>"]),
     ("when","când",["<cnj>"],["<cnj>"]),
+    ("of", "de",  ["<pr>","<gen_marker>"], ["<pr>"]),
     ("where","unde",["<adv>"],["<adv>"]),
     ("how","cum",["<adv>"],["<adv>"]),
     ("why","de_ce",["<adv>"],["<adv>"]),
@@ -280,6 +281,84 @@ function_words = [
 ]
 for en, ro, en_t, ro_t in function_words:
     core_data.append((en, ro, en_t, ro_t))
+#more words:
+articles = [ #no translation in romanian
+    ("the", "the", ["<art>","<def>"], ["<art>","<def>"]),
+    ("a", "a", ["<art>","<indef>"], ["<art>","<indef>"]),
+    ("an", "a", ["<art>","<indef>"], ["<art>","<indef>"]),
+]
+demonstratives = [
+    ("this",  "acest",   ["<prn>","<sg>"], ["<prn>","<sg>"]),
+    ("that",  "acel",    ["<prn>","<sg>"], ["<prn>","<sg>"]),
+    ("these", "acești",  ["<prn>","<pl>"], ["<prn>","<pl>"]),
+    ("those", "acei",    ["<prn>","<pl>"], ["<prn>","<pl>"]),
+]
+modals = [
+    ("should", "ar trebui", ["<adv>"],  ["<vb>"]),
+    ("could",  "ar putea",  ["<adv>"],   ["<vb>"]),
+    ("might",  "ar putea",  ["<adv>"],   ["<vb>"]),
+    ("may",    "poate",     ["<adv>"],   ["<vb>"]),
+]
+subordinators = [
+    ("that",     "că",       ["<cnj>"],  ["<cnj>"]),  
+    ("although", "deși",     ["<cnj>"],           ["<cnj>"]),
+    ("while",    "în timp ce",["<cnj>"],          ["<cnj>"]),
+    ("unless",   "dacă nu",  ["<cnj>"],           ["<cnj>"]),
+    ("until",    "până când",["<cnj>"],           ["<cnj>"]),
+    ("whether",  "dacă",     ["<cnj>"],           ["<cnj>"]),        
+    ("so_that",  "ca să",    ["<cnj>"],["<cnj>"]), 
+    ("in_order_to","ca să",  ["<cnj>"],["<cnj>"]),
+]
+quantifiers = [
+    ("many",    "mulți",    ["<num>","<pl>"],  ["<num>","<pl>","<m>"]),
+    ("much",    "mult",     ["<num>","<mass>"], ["<num>","<mass>"]),
+    ("few",     "puțini",   ["<num>","<pl>"],  ["<num>","<pl>"]),
+    ("little",  "puțin",    ["<num>","<mass>"], ["<num>","<mass>"]),
+    ("some",    "niște",    ["<prn>"],          ["<prn>"]),
+    ("any",     "orice",    ["<num>"],          ["<num>"]),
+    ("every",   "fiecare",  ["<prn>","<sg>"],  ["<prn>","<sg>"]),
+    ("all",     "toți",     ["<prn>","<pl>"],  ["<prn>","<pl>"]),
+    ("each",    "fiecare",  ["<num>","<sg>"],  ["<num>","<sg>"]),
+    ("both",    "amândoi",  ["<num>"],["<num>"]),
+    ("several", "câțiva",   ["<prn>","<pl>"],  ["<prn>","<pl>"]),
+    ("enough",  "destul",   ["<num>",],          ["<num>"]),
+    ("another", "alt",      ["<prn>","<sg>"],             ["<prn>","<sg>"]),
+    ("other",   "alt",      ["<prn>"],                    ["<prn>"]),
+    ("too",     "prea",     ["<adv>","<deg>"],            ["<adv>","<deg>"]),
+    ("more",    "mai mult", ["<adv>","<deg>"],            ["<adv>","<deg>"]),   
+    ("most",    "cel mai",  ["<adv>","<deg>"],            ["<adv>","<deg>"]),   
+    ("less",    "mai puțin",["<adv>","<deg>"],            ["<adv>","<deg>"]),
+]
+degree_adverbs = [
+    ("so",      "atât de",  ["<adv>"],  ["<adv>"]),
+    ("such",    "atât de",  ["<adv>"],  ["<adv>"]),
+    ("quite",   "destul de",["<adv>"],  ["<adv>"]),
+    ("rather",  "destul de",["<adv>"],  ["<adv>"]),
+    ("almost",  "aproape",  ["<adv>"],           ["<adv>"]),
+    ("just",    "tocmai",   ["<adv>"],           ["<adv>"]),
+    ("only",    "doar",     ["<adv>"],           ["<adv>"]),
+    ("even",    "chiar",    ["<adv>"],           ["<adv>"]),
+    ("still",   "încă",     ["<adv>"],           ["<adv>"]),
+    ("already", "deja",     ["<adv>"],           ["<adv>"]),
+    ("yet",     "încă",     ["<adv>","<neg>"],   ["<adv>","<neg>"]),  
+    ("again",   "din nou",  ["<adv>"],           ["<adv>"]),
+    ("than",    "decât",    ["<cnj>"],  ["<cnj>"]),  
+    ("as",      "la fel de",["<adv>"],   ["<adv>"]),    
+]
+neg_pronouns = [
+    ("nothing",  "nimic",    ["<prn>","<neg>"], ["<prn>","<neg>"]),
+    ("nobody",   "nimeni",   ["<prn>","<neg>"], ["<prn>","<neg>"]),
+    ("nowhere",  "nicăieri", ["<adv>","<neg>"], ["<adv>","<neg>"]),
+    ("neither",  "nici",     ["<cnj>","<neg>"], ["<cnj>","<neg>"]),
+    ("nor",      "nici",     ["<cnj>","<neg>"], ["<cnj>","<neg>"]),
+]
+core_data.extend(articles)
+core_data.extend(demonstratives)
+core_data.extend(modals)
+core_data.extend(subordinators)
+core_data.extend(quantifiers)
+core_data.extend(degree_adverbs)
+core_data.extend(neg_pronouns)
 
 
 en_lex = {}
