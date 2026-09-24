@@ -48,14 +48,21 @@ def perform_fst_traversal(fst:FST, input_string:str) -> list[list[str]]:
     def traverse(current_state:int, string_position:int, output_so_far:list[str]):
 
         if string_position == len(input_string) and current_state in fst.final_states:
-            outputs.append(output_so_far)
+            if output_so_far not in outputs:
+                outputs.append(output_so_far)
             return
         
         for transition in fst.transitions[current_state]:
             if transition.input == EPSILON: #on epsilon transition on input, no character consumed from the input string
-                traverse(transition.end_state, string_position, output_so_far + [transition.output])
+                new_output = output_so_far
+                if transition.output != EPSILON:
+                    new_output = output_so_far + [transition.output]
+                traverse(transition.end_state, string_position, new_output)
             elif(string_position < len(input_string) and input_string[string_position] == transition.input):
-                traverse(transition.end_state, string_position + 1, output_so_far + [transition.output])
+                new_output = output_so_far
+                if transition.output != EPSILON:
+                    new_output = output_so_far + [transition.output]
+                traverse(transition.end_state, string_position + 1, new_output)
 
     traverse(fst.start_state_id, 0, [])
     return outputs
@@ -173,6 +180,7 @@ def createFSTNodes()->FST:
 
 #TESING
 fst = createFSTNodes()
+analyzer = invert(fst)
 for state, transitions in fst.transitions.items():
     for t in transitions:
         print(
@@ -189,3 +197,8 @@ def test(fst, input_tokens):
 
 test(fst, ["c", "a", "t", "<PL>"])
 test(fst, ["b", "o", "x", "<PL>"])
+print("INVERTED FST")
+
+test(analyzer, ["c", "a", "t", "s"])
+test(analyzer, ["b", "o", "x", "e", "s"])
+test(analyzer, ["s", "c", "h", "o", "o", "l", "s"])
