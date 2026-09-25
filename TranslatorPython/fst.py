@@ -113,73 +113,84 @@ rules = [
     LeftContextRule(["e"],    "<PAST>", ["d"]),
     LeftContextRule(["y"],    "<PAST>", ["i", "e", "d"])],
 ]
-def createFSTNodes()->FST:
-    fst =FST()
-
-    states = {"start": fst.start_state_id} #dictionary of letter to number
-    fst.add_final_state(fst.start_state_id)
-
-    for s in ALPHABET:
-        states[s] = fst.add_new_state()
-        fst.add_final_state(states[s])
-    for s in ALPHABET:
-        fst.add_transition(fst.start_state_id, states[s], s, s)
-    for s in SPECIAL_SYMBOLS:
-        states[s] = fst.add_new_state()
-
-    for firstChar in ALPHABET:
-        for secondChar in ALPHABET:
-            fst.add_transition(states[firstChar], states[secondChar],secondChar, secondChar )
-
-    #for each letter, from A-B, add potential transitions to special characters
-    potentialRulesPerChar =defaultdict( lambda:defaultdict(list)) #for each char, list of [set of rules[specific rules]]
-    for secondChar in ALPHABET:
-        for firstChar in ALPHABET:  
-            for ruleset_index, setRules in enumerate(rules):
-                for specificRule in setRules:
-                    if specificRule.leftCharacters == [firstChar, secondChar]:
-                        potentialRulesPerChar[secondChar][ruleset_index].append(specificRule)
-    
-    
-        for ruleset_index, setRules in enumerate(rules):
-            for specificRule in setRules:
-                if specificRule.leftCharacters == [secondChar] or specificRule.leftCharacters == []:
-                    potentialRulesPerChar[secondChar][ruleset_index].append(specificRule)
 
 
-    for char in ALPHABET:
-        for ruleset_index, possibleRules in potentialRulesPerChar[char].items():
-            orderedRules = sorted(possibleRules, key=lambda r: len(r.leftCharacters), reverse=True)
-            bestRule = orderedRules[0]
-            outputs = bestRule.outputForTransition
-            tag = bestRule.inputForTransition
 
-            if len(outputs) == 1:
-  
-                fst.add_transition(states[char], states[tag], tag, outputs[0])
-                fst.add_final_state(states[tag])
-            else:
+def createFST  () -> FST:
+    fst = FST()
+    contextRules = set([""])#empty condition added to context rules
+    #first part concentrates on creating the prefixes to each special rule
+    for ruleset in rules: 
+        for rule in ruleset:    
+            ctx_str = ""
+            for character in rule.leftCharacters: #create a normal string with its chars
+                ctx_str += character
+            for length in range(len(ctx_str) + 1):
+                prefix = ctx_str[0:length]
+                contextRules.add(prefix) #forming all prefixes of a context of a rule
 
-                mid = fst.add_new_state()
-                fst.add_transition(states[char], mid, tag, outputs[0])
-                current_state = mid
-                for i in range(1, len(outputs)):
-                    next_state = fst.add_new_state()
-                    fst.add_transition(current_state, next_state, EPSILON, outputs[i])
-                    current_state = next_state
-                fst.add_final_state(current_state)\
-                #TESTING
-    print("States:", states)
-    print("Transitions out of states['t']:")
-    for t in fst.transitions[states["t"]]:
-        print(f"  {t.input} -> {t.output} -> state {t.end_state}")
-    print("Final states:", fst.final_states)
+    #create states for the rules
+    states = {}
+    for context in contextRules:
+        states[context] = fst.add_new_state()
+    fst.set_start_state(states[""])
+
+    #contexts 
+    for context in contextRules:
+        fst.add_final_state(states[context])
+#aho corasick algorithm >map normal characters
+    for context in contextRules:
+        for letter in ALPHABET:
+            supposedContext = context+letter#supposed next 'context' with a added letter
+            targetContext=""
+            #try to construct the best suffix (longest) from a supposed context formed with the current letter
+            #if no context found ,it basically goes back and considers a normal letter
+            for i in range(len(supposedContext)):
+                suffix = ""
+                for j in range(i, len(supposedContext)):
+                    suffix+=supposedContext[j]
+                if suffix in contextRules:
+                    targetContext = suffix
+                    break
+            fst.add_transition(states[context], states[targetContext], letter, letter)
+    #map special characters
+    rulesByTag = defaultdict(list)
+    #create a dictionary with list for each special tag
+    for ruleset in rules:
+        for rule in ruleset:
+            rulesByTag[rule.inputForTransition].append(rule)
+
+    for context in contextRules: #based on each context and each tag (<pl>, <3sg>,etc) choose the longest left constraint and add it as final state
+        for tag, tagrules in rulesByTag.items():
+            validRules = [] #list that finally will contain rules matching the current context
+            for rule in tagrules:
+                leftContextString = "".join(rule.leftCharacters)
+                if context.endswith(leftContextString):
+                    validRules.append(rule)
+
+            if validRules: #get the rule with the most restrictions for each context
+                bestRule = max(validRules, key = lambda rule: len(rule.leftCharacters))
+                bestOut = bestRule.outputForTransition
+
+                if len(bestOut)==1:# if 1, just add the transition to a final state, via the simple tag,
+                    final_state = fst.add_new_state()
+                    fst.add_transition(states[context], final_state, tag, bestOut[0])
+                    fst.add_final_state(final_state)
+                else:#else construct intermediary nodes, starting with the tag, until a final one
+                    current_state = states[context]
+                    intermediary = fst.add_new_state()
+                    fst.add_transition(current_state, intermediary, tag, bestOut[0])
+                    current_state = intermediary
+                    for i in range(1, len(bestOut)):
+                        next_State = fst.add_new_state()
+                        fst.add_transition(current_state, next_State, EPSILON, bestOut[i])
+                        current_state=next_State
+                    fst.add_final_state(current_state);
+
     return fst
 
-
-
 #TESING
-fst = createFSTNodes()
+fst = createFST()
 analyzer = invert(fst)
 for state, transitions in fst.transitions.items():
     for t in transitions:
@@ -202,3 +213,5 @@ print("INVERTED FST")
 test(analyzer, ["c", "a", "t", "s"])
 test(analyzer, ["b", "o", "x", "e", "s"])
 test(analyzer, ["s", "c", "h", "o", "o", "l", "s"])
+test(analyzer, ["g", "r", "a", "p", "h", "s"]) 
+test(analyzer, ['b', 'o', 'x'])
