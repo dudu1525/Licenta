@@ -192,11 +192,11 @@ def createFST  () -> FST:
 #TESING
 fst = createFST()
 analyzer = invert(fst)
-for state, transitions in fst.transitions.items():
-    for t in transitions:
-        print(
-            f"{t.start_state} -- {t.input}/{t.output} --> {t.end_state}"
-        )
+#for state, transitions in fst.transitions.items():
+ #   for t in transitions:
+  #      print(
+   #         f"{t.start_state} -- {t.input}/{t.output} --> {t.end_state}"
+    #    )
 def test(fst, input_tokens):
     results = perform_fst_traversal(fst, input_tokens)
     print(f"{''.join(input_tokens):15} -> ", end="")
@@ -206,12 +206,10 @@ def test(fst, input_tokens):
     for result in results:
         print("".join(result))
 
-test(fst, ["c", "a", "t", "<PL>"])
-test(fst, ["b", "o", "x", "<PL>"])
-print("INVERTED FST")
 
 test(analyzer, ["c", "a", "t", "s"])
 test(analyzer, ["b", "o", "x", "e", "s"])
 test(analyzer, ["s", "c", "h", "o", "o", "l", "s"])
 test(analyzer, ["g", "r", "a", "p", "h", "s"]) 
 test(analyzer, ['b', 'o', 'x'])
+test(analyzer, ['c', 'h', 'u', 'r', 'c', 'h'])
