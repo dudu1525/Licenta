@@ -76,6 +76,84 @@ class HiddenMarkovModel:
     def getTransitionProbability(self, prev_tag, tag):
         if (prev_tag, tag) in self.transitionProb:
             return self.transitionProb[(prev_tag, tag)]
-
+        return math.log(1e-8)
 
     def viterbiAlgorithm(self, sentence):
+        sentence = [word.lower() for word in sentence]
+        if sentence[-1] != ".":
+            sentence.append(".")
+
+        word_tags_table = []
+        backpointer_table = []
+        #compute the table with the scores for the first word in the sentence that should be preceeded by <S>
+        first_word_scores = {}
+        first_word_backpointer = {}
+        for tag in self.tags:
+            transition_prob = self.getTransitionProbability('<S>', tag)
+            emission_prob = self.getEmissionProbability(tag, sentence[0])
+            #addition because of the way the probabilites are stored, as log form
+            first_word_scores[tag] = transition_prob + emission_prob
+            first_word_backpointer[tag] = '<S>' #Visualized as a graph, from the S, it goes forward for each tag, with its computed probability and backpointer to S
+        
+        word_tags_table.append(first_word_scores)
+        backpointer_table.append(first_word_backpointer)
+        #computing best scores for the rest of the words.
+        for i in range(1, len(sentence)):
+            current_word_scores = {}
+            current_word_backpointer = {}
+            for tag in self.tags:
+                best_score = float('-inf')
+                best_prev_tag = None
+                for prev_tag in self.tags:
+                    transition_prob = self.getTransitionProbability(prev_tag, tag) #probability of ti-1, ti given the previous tag
+                    emission_prob = self.getEmissionProbability(tag, sentence[i])#probability for a tag, given the word
+                    score = word_tags_table[i - 1][prev_tag] + transition_prob + emission_prob
+                    if score > best_score:
+                        best_score = score
+                        best_prev_tag = prev_tag
+                #for each tag, store the best score and the backpointer to the previous tag that gave that score
+                current_word_scores[tag] = best_score
+                current_word_backpointer[tag] = best_prev_tag
+            #store for each new word, the scores and backpointers for each tag
+            word_tags_table.append(current_word_scores)
+            backpointer_table.append(current_word_backpointer)
+
+        #final tag with <E> transition
+        best_final_score = float('-inf')
+        best_final_tag = None
+        for tag in self.tags:
+            score = word_tags_table[-1][tag] + self.getTransitionProbability(tag, '<E>')
+            if score > best_final_score:
+                best_final_score = score
+                best_final_tag = tag
+
+        #reconstructing the path
+        best_path = [best_final_tag]
+        for i in range(len(sentence) - 1, 0, -1):
+            best_prev_tag = backpointer_table[i][best_path[-1]]
+            best_path.append(best_prev_tag)
+
+        best_path.reverse()
+        del best_path[-1]#remove added punctuation
+        return best_path
+
+def analyzeSentence(sentence):
+    sentences = read_dataset("data/en_ewt-ud-train.conllu")
+    hmm = HiddenMarkovModel() 
+    hmm.computeCountsandProbabilities(sentences)
+    return hmm.viterbiAlgorithm(sentence)
+
+
+
+def test_hmm():
+    sentences = read_dataset("data/en_ewt-ud-train.conllu")
+    hmm = HiddenMarkovModel()
+
+    hmm.computeCountsandProbabilities(sentences)
+   # print (hmm.tags)
+   # print("sentence")
+    test_sentence = ["boxe"]
+    predicted_tags = hmm.viterbiAlgorithm(test_sentence)
+    print(list(zip(test_sentence, predicted_tags)))
+
+#test_hmm()

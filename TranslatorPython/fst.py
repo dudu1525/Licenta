@@ -65,6 +65,12 @@ def perform_fst_traversal(fst:FST, input_string:str) -> list[list[str]]:
                 traverse(transition.end_state, string_position + 1, new_output)
 
     traverse(fst.start_state_id, 0, [])
+    for o in outputs:
+        if o[-1]=='<PL>':
+            o.append('<n>')
+        elif o[-1]=='<3SG>' or o[-1]=='<PAST>':
+            o.append('<vb>')
+    
     return outputs
 
 def invert(fst):
@@ -190,8 +196,8 @@ def createFST  () -> FST:
     return fst
 
 #TESING
-fst = createFST()
-analyzer = invert(fst)
+#fst = createFST()
+#analyzer = invert(fst)
 #for state, transitions in fst.transitions.items():
  #   for t in transitions:
   #      print(
@@ -207,9 +213,9 @@ def test(fst, input_tokens):
         print("".join(result))
 
 
-test(analyzer, ["c", "a", "t", "s"])
-test(analyzer, ["b", "o", "x", "e", "s"])
-test(analyzer, ["s", "c", "h", "o", "o", "l", "s"])
-test(analyzer, ["g", "r", "a", "p", "h", "s"]) 
-test(analyzer, ['b', 'o', 'x'])
-test(analyzer, ['c', 'h', 'u', 'r', 'c', 'h'])
+#test(analyzer, ["c", "a", "t", "s"])
+#test(analyzer, ["b", "o", "x", "e", "s"])
+#test(analyzer, ["s", "c", "h", "o", "o", "l", "s"])
+#test(analyzer, ["g", "r", "a", "p", "h", "s"]) 
+#test(analyzer, ['b', 'o', 'x'])
+#test(analyzer, ['c', 'h', 'u', 'r', 'c', 'h'])
