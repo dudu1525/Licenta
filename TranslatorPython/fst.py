@@ -213,7 +213,7 @@ def test(fst, input_tokens):
         print("".join(result))
 
 
-#test(analyzer, ["c", "a", "t", "s"])
+#test(analyzer, ["s", "l", "e", "e", "p", "s"])
 #test(analyzer, ["b", "o", "x", "e", "s"])
 #test(analyzer, ["s", "c", "h", "o", "o", "l", "s"])
 #test(analyzer, ["g", "r", "a", "p", "h", "s"]) 

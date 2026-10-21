@@ -71,7 +71,7 @@ def analyze(inputString:str, outform):
 
     finalList = []#final outputed list
     #read english lexicon
-    with open("en_lex.json", "r", encoding="utf-8") as file:
+    with open("lexicons/en_lex.json", "r", encoding="utf-8") as file:
         englishLexicon = json.load(file)
 
     #split into words the sentence
@@ -130,5 +130,5 @@ def analyze(inputString:str, outform):
     return finalList
 
    
-finallist=analyze("I like cats", [])
+finallist=analyze("The cat walks", [])
 print(finallist )
