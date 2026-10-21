@@ -52,7 +52,6 @@ class Node:
 #generated
 def view_tree(node, indent="", is_last=True):
     if node is None:
-        print("Parse Failed")
         return
 
     marker = "└── " if is_last else "├── "
@@ -167,14 +166,24 @@ class EarleyParser: #grammar is the set of rules (up above)
 
 
 
-finallist = [
-    WordFormat(lemma="the", tags=["<art>"]),
-    WordFormat(lemma="cat", tags=["<n>", "<sg>"]),
-    WordFormat(lemma="walk", tags=["<vb>", "<3sg>"])
-]
+# finallist = [
+#     WordFormat(lemma="the", tags=["<art>"]),
+#     WordFormat(lemma="cat", tags=["<n>", "<sg>"]),
+#     WordFormat(lemma="walk", tags=["<vb>", "<3sg>"])
+# ]
 
-parser = EarleyParser(grammar=tree_transforms, start_symbol="S")
-tree = parser.parse(finallist)
+#parser = EarleyParser(grammar=tree_transforms, start_symbol="S")
+#tree = parser.parse(finallist)
 
-print("=== STRUCTURED PARSE TREE VIEW ===")
-view_tree(tree)
+#print("=== STRUCTURED PARSE TREE VIEW ===")
+#view_tree(tree)
+
+
+def parseSentenceFromWordFormat(inp):
+    parser = EarleyParser(grammar=tree_transforms, start_symbol="S")
+    tree = parser.parse(inp)
+    return tree
+
+
+def structuralTransfer(inp, rules): #input tree, romanian transfer rules!
+    

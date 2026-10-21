@@ -65,6 +65,7 @@ def perform_fst_traversal(fst:FST, input_string:str) -> list[list[str]]:
                 traverse(transition.end_state, string_position + 1, new_output)
 
     traverse(fst.start_state_id, 0, [])
+    #append output as last 
     for o in outputs:
         if o[-1]=='<PL>':
             o.append('<n>')

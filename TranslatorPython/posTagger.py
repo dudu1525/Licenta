@@ -135,6 +135,7 @@ class HiddenMarkovModel:
 
         best_path.reverse()
         del best_path[-1]#remove added punctuation
+        #print(best_path)
         return best_path
 
 def analyzeSentence(sentence):

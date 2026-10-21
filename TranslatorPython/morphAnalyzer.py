@@ -50,8 +50,10 @@ def transformFromListToString(inp: list[str]):
 def returnTagsFromList(inp: list[str]):
     tags = []
     for letter in inp:
+        #print(letter)
         if letter[0]=='<':
             tags.append(letter)
+    tags[0],tags[-1] = tags[-1], tags[0]
     return tags
 
 
@@ -97,7 +99,7 @@ def analyze(inputString:str, outform):
                 break
         if foundString==False:
             wordStrings = transformToListOfStrings(word)
-            fstOut = perform_fst_traversal(analyzerfst, wordStrings)
+            fstOut = perform_fst_traversal(analyzerfst, wordStrings) #last part of the tags is the part of speech predicted
             if len(fstOut)==1:#one possibility, most likely not in the lexicons, statistic information gotten from the pos tagger, so basic part of speech
 
                 analyzedWord = fstOut[0]
@@ -108,21 +110,22 @@ def analyze(inputString:str, outform):
             elif len(fstOut)>1: #more versions for the word, take the one that matches the pos tagger
                 wordWithTag = False
                 for i in fstOut:
-                    if len(i[-1])>1:
+                    if len(i[-1])>1: #means the last part of the word is with a tag (more chars than 1 last one)
                         wordWithTag=True
                         break
                 #given a word with tag was found, it is taken as priority
                 if wordWithTag==True: 
                     for i in fstOut:
+                       # print (i)
                         if len(i[-1])>1:
                             normalWord = transformFromListToString(i)#transform to normal string
                             #print(normalWord)
-                            foundTagForSingleWord = hmm.viterbiAlgorithm([normalWord])
+                            foundTagForSingleWord = hmm.viterbiAlgorithm([word]) #!!!!!!! CHECK THE INITIAL WORD, NOT ANOTHER ONE!!!
                             #print(formatMapper[foundTagForSingleWord[0]] + i[-1] + predictedTag)
                             lastTag = i[-1]
                             #match between the found tag from the pos tagger, the found tag from the fst analyzer and from a second pos 
                             if lastTag == formatMapper[foundTagForSingleWord[0]] and lastTag == formatMapper[predictedTag]:
-                              
+                                
                                 finalList.append(WordFormat(normalWord, returnTagsFromList(i)))
                                 break
 
@@ -130,5 +133,5 @@ def analyze(inputString:str, outform):
     return finalList
 
    
-finallist=analyze("The cat walks", [])
-print(finallist )
+#finallist=analyze("The cat sleeps", [])
+#print(finallist )
