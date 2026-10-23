@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+import json
 
 @dataclass
 class WordFormat:
@@ -175,7 +176,6 @@ class EarleyParser: #grammar is the set of rules (up above)
 #parser = EarleyParser(grammar=tree_transforms, start_symbol="S")
 #tree = parser.parse(finallist)
 
-#print("=== STRUCTURED PARSE TREE VIEW ===")
 #view_tree(tree)
 
 
@@ -184,6 +184,80 @@ def parseSentenceFromWordFormat(inp):
     tree = parser.parse(inp)
     return tree
 
+############################################################################################ structural transfer with lexicons
 
-def structuralTransfer(inp, rules): #input tree, romanian transfer rules!
+with open("lexicons/en_lex.json", "r", encoding="utf-8") as f:
+    EN_LEX = json.load(f) 
+
+with open("lexicons/ro_lex.json", "r", encoding="utf-8") as f:
+    RO_LEX = json.load(f)  
+
+with open("lexicons/bilingual_map.json", "r", encoding="utf-8") as f:
+    BILINGUAL_MAP = json.load(f) 
+
+EN_LEMMA_TO_ID = {entry["lemma"].lower(): en_id for en_id, entry in EN_LEX.items()}
+
+def translate_lex_entry(en_wf: WordFormat) -> WordFormat:
+
+    lemma_clean = en_wf.lemma.lower().strip()
     
+    en_id = EN_LEMMA_TO_ID.get(lemma_clean)
+    if not en_id:
+        return WordFormat(en_wf.lemma, list(en_wf.tags))
+
+    ro_id = BILINGUAL_MAP.get(en_id)
+    if not ro_id or ro_id not in RO_LEX:
+        return WordFormat(en_wf.lemma, list(en_wf.tags))
+
+    ro_entry = RO_LEX[ro_id]
+    ro_lemma = ro_entry["lemma"]
+    ro_tags = list(ro_entry["tags"])
+
+    for tag in en_wf.tags:
+        if tag not in ro_tags:
+            ro_tags.append(tag)
+
+    return WordFormat(ro_lemma, ro_tags)
+
+
+
+def structuralTransfer(node:Node)->Node: #input tree, returns romanian tree,
+    if node.is_leaf():
+        return node;
+
+
+    #the approach is relatively simple, searching for the patterns of the rules
+    #idea is to start from the bottom up with the tree, and return the children recursively to the root
+    transformedInputChildren = []
+    for child in node.children:
+        transformedInputChildren.append(structuralTransfer(child))
+
+    node.children = transformedInputChildren#passing transformed children
+
+    #applying the rules on the current node
+    #rule 1 -> getting rid of 'the'
+    if node.label == "NP" and len(node.children) == 2:
+        if node.children[0].label == "<art>" and node.children[1].label == "NOM":
+            nom_node = node.children[1]
+            if len(nom_node.children) == 2 and nom_node.children[0].label == "<adj>":
+                adj_node, noun_node = nom_node.children[0], nom_node.children[1]
+
+                
+                ro_noun_wf = translate_lex_entry(noun_node.children[0].label)
+                ro_adj_wf = translate_lex_entry(adj_node.children[0].label)
+
+                
+                if "<def>" not in ro_noun_wf.tags: #devine articulat substantivul
+                    ro_noun_wf.tags.append("<def>")
+
+                # passing gender and counter to adj
+                for tag in ro_noun_wf.tags:
+                    if tag in ["<f>", "<m>", "<nt>", "<sg>", "<pl>"] and tag not in ro_adj_wf.tags:
+                        ro_adj_wf.tags.append(tag)
+
+                # swap adj and noun order
+                return Node("NP", [Node("<n>", [Node(ro_noun_wf)]), Node("<adj>", [Node(ro_adj_wf)])])
+
+
+
+    return node;
