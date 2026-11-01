@@ -32,4 +32,5 @@ def translateSentence(inp: str):
 
 
 
-translateSentence("I like the good cat")
+#translateSentence("I like the big cat")
+translateSentence("he likes to eat")

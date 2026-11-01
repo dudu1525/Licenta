@@ -25,10 +25,14 @@ tree_transforms = {
     ],
     "VP": [
         ("<vb>",),
+        ("<vb>", "INF"),
         ("<vb>", "NP"),
         ("<vb>", "NP", "PP"),
         ("<vb>", "PP"),
         ("VP", "PP")
+    ],
+    "INF": [
+        ("<pr>", "VP")   #infinitive of a verb (pr = to, preposition)
     ],
     "PP": [
         ("<pr>", "NP")
@@ -257,7 +261,42 @@ def structuralTransfer(node:Node)->Node: #input tree, returns romanian tree,
 
                 # swap adj and noun order
                 return Node("NP", [Node("<n>", [Node(ro_noun_wf)]), Node("<adj>", [Node(ro_adj_wf)])])
+            elif  len(nom_node.children) == 1 and nom_node.children[0].label == "<n>":
+                noun_node = nom_node.children[0]
+                ro_noun_wf = translate_lex_entry(noun_node.children[0].label)
+                if "<def>" not in ro_noun_wf.tags: #devine articulat substantivul
+                    ro_noun_wf.tags.append("<def>")
+                return Node("NP", [Node("<n>", [Node(ro_noun_wf)])])
+#rule 2, in a verb sentence, where there is for example she sees him -> ea IL vede (so clitic pronoun appears before the verb)
+    if node.label == "VP" and len(node.children) == 2:
+        if node.children[0].label == "<vb>" and node.children[1].label == "NP":
+            np_child = node.children[1]
+            if len(np_child.children) == 1 and np_child.children[0].label == "<prn>":
+                verb_wf = node.children[0].children[0].label
+                pron_wf = np_child.children[0].children[0].label
+                ro_verb_wf = translate_lex_entry(verb_wf)
+                ro_clitic_wf = translate_lex_entry(pron_wf)  
+                ro_clitic_wf.tags.append("<cl>") #add clitic
+                return Node("VP", [Node("<prn>", [Node(ro_clitic_wf)]), Node("<vb>", [Node(ro_verb_wf)])])
+#rule 3 - for context: I want to eat -> sa appears and eat gets accorded with the subject
+############DOESENT WORK, NEEDS MODIFIYING
+    if node.label == "VP" and len(node.children) == 2:
+        if node.children[0].label == "<vb>" and node.children[1].label == "<vb>":
+            main_v_node, inf_branch = node.children[0], node.children[1]
+            ro_main_wf = translate_lex_entry(main_v_node.children[0].label)
+            ro_target_wf = translate_lex_entry(inf_branch.children[1].children[0].label)
 
+            #give context to the secodn verb person/number tags
+            person_tags = [t for t in ro_main_wf.tags if t in ["<p1>", "<p2>", "<p3>", "<sg>", "<pl>"]]
+            ro_target_wf.tags.append("<conj>") #add conjunctive clause to the verb
+            ro_target_wf.tags.extend([t for t in person_tags if t not in ro_target_wf.tags])
 
+            sa_wf = WordFormat(lemma="să", tags=[ "<cnj>"])
+
+            return Node("VP", [
+                Node("<vb>", [Node(ro_main_wf)]),
+                Node("<part>", [Node(sa_wf)]),
+                Node("<vb>", [Node(ro_target_wf)])])
+#rule 4
 
     return node;
