@@ -279,24 +279,57 @@ def structuralTransfer(node:Node)->Node: #input tree, returns romanian tree,
                 ro_clitic_wf.tags.append("<cl>") #add clitic
                 return Node("VP", [Node("<prn>", [Node(ro_clitic_wf)]), Node("<vb>", [Node(ro_verb_wf)])])
 #rule 3 - for context: I want to eat -> sa appears and eat gets accorded with the subject
-############DOESENT WORK, NEEDS MODIFIYING
     if node.label == "VP" and len(node.children) == 2:
-        if node.children[0].label == "<vb>" and node.children[1].label == "<vb>":
+        if node.children[0].label == "<vb>" and node.children[1].label == "INF":
             main_v_node, inf_branch = node.children[0], node.children[1]
             ro_main_wf = translate_lex_entry(main_v_node.children[0].label)
-            ro_target_wf = translate_lex_entry(inf_branch.children[1].children[0].label)
-
+            print (inf_branch.children[0].label)
+            if len(inf_branch.children) == 2 and inf_branch.children[0].label =="<pr>":
+               # print("o intrat in al doilea")
+                ro_second_verb_search = inf_branch.children[1].children[0].children[0] #inf->vp->vb->verb itself
+              
+                ro_translated_second_verb = translate_lex_entry(ro_second_verb_search.label)
             #give context to the secodn verb person/number tags
-            person_tags = [t for t in ro_main_wf.tags if t in ["<p1>", "<p2>", "<p3>", "<sg>", "<pl>"]]
-            ro_target_wf.tags.append("<conj>") #add conjunctive clause to the verb
-            ro_target_wf.tags.extend([t for t in person_tags if t not in ro_target_wf.tags])
+            #if verb contains 3sg -> third person = <p3>
+                person_tags = [t for t in ro_main_wf.tags if t in ["<p1>", "<p2>", "<p3>", "<sg>", "<pl>"]]
+                if "<3SG>" in ro_main_wf.tags:
+                    person_tags.append("<p3>")
+                ro_translated_second_verb.tags.append("<conj>") #add conjunctive clause to the verb
+                ro_translated_second_verb.tags.extend([t for t in person_tags if t not in ro_translated_second_verb.tags])
 
-            sa_wf = WordFormat(lemma="să", tags=[ "<cnj>"])
+                sa_wf = WordFormat(lemma="să", tags=[ "<cnj>"])
 
-            return Node("VP", [
-                Node("<vb>", [Node(ro_main_wf)]),
-                Node("<part>", [Node(sa_wf)]),
-                Node("<vb>", [Node(ro_target_wf)])])
-#rule 4
+                return Node("VP", [
+                    Node("<vb>", [Node(ro_main_wf)]),
+                    Node("<cnj>", [Node(sa_wf)]),
+                    Node("<vb>", [Node(ro_translated_second_verb)])])\
 
-    return node;
+                    
+#rule 4 drop the subject of the proposition (pronoun)
+
+    if node.label == "S" and len(node.children) == 2:
+        subj_np, vp_node = node.children[0], node.children[1]
+        if subj_np.label == "NP" and len(subj_np.children) == 1 and subj_np.children[0].label == "<prn>":
+            prn_wf = subj_np.children[0].children[0].label #get the pronoun itself
+            person_tags = [t for t in prn_wf.tags if t in ["<p1>", "<p2>", "<p3>", "<sg>", "<pl>"]]
+
+            # give the person number to the verb following the pronoun
+            if len(vp_node.children) > 0 and vp_node.children[0].label == "<vb>":
+                verb_wf = vp_node.children[0].children[0].label
+                verb_wf.tags.extend([t for t in person_tags if t not in verb_wf.tags])
+            #drop the np node
+            return Node("S", [vp_node])
+
+#RULE 5  ->for 2 nouns one besides each other and one is of form with 's, then append genitive and then it needs specific generation rules (ill see if i do it)
+
+
+
+#rule 6 -> handle clitic verb that needs to go before the verb itself
+
+#also normal nodes need direct translate, no rules, if not of type NOM, VP, NP, ETC
+    return node
+
+
+
+
+#after structural transfer the transformed sentence needs to be flattened and fed as input to the morph generator
