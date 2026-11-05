@@ -1,10 +1,10 @@
-from dataclasses import dataclass
+
 import json
 import re
 
 from fst import createFST, invert, perform_fst_traversal
 from posTagger import HiddenMarkovModel, analyzeSentence,read_dataset
-
+from data import WordFormat
 formatMapper={
     "ADJ": "<adj>",#adjective
     "ADV": "<adv>",#adverb
@@ -25,10 +25,7 @@ formatMapper={
     "X": "<??>", #other
 }
 
-@dataclass
-class WordFormat:
-    lemma: str
-    tags: list[str]
+
 
 def tokenize(text: str) -> list[str]:
     return re.findall(r'[a-z]+', text,re.IGNORECASE)
@@ -104,7 +101,7 @@ def analyze(inputString:str, outform):
 
                 analyzedWord = fstOut[0]
                 wordFormat = transformFromListToString(analyzedWord)
-                finalList.append(WordFormat(wordFormat, formatMapper[predictedTag]))
+                finalList.append(WordFormat(wordFormat, [formatMapper[predictedTag]]))
 
             
             elif len(fstOut)>1: #more versions for the word, take the one that matches the pos tagger

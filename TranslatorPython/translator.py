@@ -1,10 +1,7 @@
 from dataclasses import dataclass
 from morphAnalyzer import analyze
-from sentenceParser import parseSentenceFromWordFormat, view_tree, structuralTransfer
-@dataclass
-class WordFormat:
-    lemma: str
-    tags: list[str]
+from sentenceParser import parseSentenceFromWordFormat, view_tree, structuralTransfer, StructuralTransferAndFlatten
+from data import WordFormat
 
 
 #1 morph analyze
@@ -25,6 +22,10 @@ def translateSentence(inp: str):
          view_tree(tree) 
          romtree =structuralTransfer(tree)
          view_tree(romtree)
+         print("NOW TRANSFORMED TREE")
+         words = StructuralTransferAndFlatten(romtree)
+         for wf in words:
+            print(wf)
 
 
      
@@ -32,6 +33,8 @@ def translateSentence(inp: str):
 
 
 
-#translateSentence("I like the big cat")
+translateSentence("He likes the big cat")
 #translateSentence("he likes to eat")
-translateSentence("I eat")
+#translateSentence("I eat")
+#translateSentence("She sees him")
+#translateSentence("We want to see the big house in the small village")
