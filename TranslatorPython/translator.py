@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from morphAnalyzer import analyze
 from sentenceParser import parseSentenceFromWordFormat, view_tree, structuralTransfer, StructuralTransferAndFlatten
 from data import WordFormat
-
+from morphGenerator import GenerateFinalSentence
 
 #1 morph analyze
 
@@ -26,15 +26,18 @@ def translateSentence(inp: str):
          words = StructuralTransferAndFlatten(romtree)
          for wf in words:
             print(wf)
-
+         print("generated")
+         finalSentt =  GenerateFinalSentence(words)
+         for ww in finalSentt:
+            print(ww)
 
      
 
 
 
 
-translateSentence("He likes the big cat")
+#translateSentence("He likes the big cat")
 #translateSentence("he likes to eat")
 #translateSentence("I eat")
 #translateSentence("She sees him")
-#translateSentence("We want to see the big house in the small village")
+translateSentence("We want to see the big house in the small village")

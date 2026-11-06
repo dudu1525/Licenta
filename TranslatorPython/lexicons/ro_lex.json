@@ -2087,56 +2087,56 @@
     ]
   },
   "ro_249": {
-    "lemma": "a_fi",
+    "lemma": "fi",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_250": {
-    "lemma": "a_avea",
+    "lemma": "avea",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_251": {
-    "lemma": "a_face",
+    "lemma": "face",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_252": {
-    "lemma": "a_merge",
+    "lemma": "merge",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_253": {
-    "lemma": "a_veni",
+    "lemma": "veni",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_254": {
-    "lemma": "a_vedea",
+    "lemma": "vedea",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_255": {
-    "lemma": "a_auzi",
+    "lemma": "auzi",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_256": {
-    "lemma": "a_spune",
+    "lemma": "spune",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2144,7 +2144,7 @@
     ]
   },
   "ro_257": {
-    "lemma": "a_da",
+    "lemma": "da",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2152,28 +2152,28 @@
     ]
   },
   "ro_258": {
-    "lemma": "a_lua",
+    "lemma": "lua",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_259": {
-    "lemma": "a_ști",
+    "lemma": "ști",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_260": {
-    "lemma": "a_gândi",
+    "lemma": "gândi",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_261": {
-    "lemma": "a_vrea",
+    "lemma": "vrea",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2181,7 +2181,7 @@
     ]
   },
   "ro_262": {
-    "lemma": "a_putea",
+    "lemma": "putea",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2189,7 +2189,7 @@
     ]
   },
   "ro_263": {
-    "lemma": "a_trebui",
+    "lemma": "trebui",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2197,70 +2197,70 @@
     ]
   },
   "ro_264": {
-    "lemma": "a_iubi",
+    "lemma": "iubi",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_265": {
-    "lemma": "a_urî",
+    "lemma": "urî",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_266": {
-    "lemma": "a_plăcea",
+    "lemma": "plăcea",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_267": {
-    "lemma": "a_mânca",
+    "lemma": "mânca",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_268": {
-    "lemma": "a_be",
+    "lemma": "be",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_269": {
-    "lemma": "a_dormi",
+    "lemma": "dormi",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_270": {
-    "lemma": "a_trezii",
+    "lemma": "trezii",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_271": {
-    "lemma": "a_merge",
+    "lemma": "merge",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_272": {
-    "lemma": "a_alerga",
+    "lemma": "alerga",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_273": {
-    "lemma": "a_se_aseza",
+    "lemma": "se_aseza",
     "tags": [
       "<vb>",
       "<intr>",
@@ -2268,98 +2268,98 @@
     ]
   },
   "ro_274": {
-    "lemma": "a_sta",
+    "lemma": "sta",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_275": {
-    "lemma": "a_scrie",
+    "lemma": "scrie",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_276": {
-    "lemma": "a_citi",
+    "lemma": "citi",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_277": {
-    "lemma": "a_vorbi",
+    "lemma": "vorbi",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_278": {
-    "lemma": "a_asculta",
+    "lemma": "asculta",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_279": {
-    "lemma": "a_privii",
+    "lemma": "privii",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_280": {
-    "lemma": "a_privii",
+    "lemma": "privii",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_281": {
-    "lemma": "a_găsi",
+    "lemma": "găsi",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_282": {
-    "lemma": "a_pierde",
+    "lemma": "pierde",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_283": {
-    "lemma": "a_cumpăra",
+    "lemma": "cumpăra",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_284": {
-    "lemma": "a_vinde",
+    "lemma": "vinde",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_285": {
-    "lemma": "a_plăti",
+    "lemma": "plăti",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_286": {
-    "lemma": "a_lucra",
+    "lemma": "lucra",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_287": {
-    "lemma": "a_se_juca",
+    "lemma": "se_juca",
     "tags": [
       "<vb>",
       "<intr>",
@@ -2367,14 +2367,14 @@
     ]
   },
   "ro_288": {
-    "lemma": "a_învăța",
+    "lemma": "învăța",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_289": {
-    "lemma": "a_predua",
+    "lemma": "predua",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2382,14 +2382,14 @@
     ]
   },
   "ro_290": {
-    "lemma": "a_ajuta",
+    "lemma": "ajuta",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_291": {
-    "lemma": "a_întreba",
+    "lemma": "întreba",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2397,133 +2397,133 @@
     ]
   },
   "ro_292": {
-    "lemma": "a_răspunde",
+    "lemma": "răspunde",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_293": {
-    "lemma": "a_suna",
+    "lemma": "suna",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_294": {
-    "lemma": "a_aștepta",
+    "lemma": "aștepta",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_295": {
-    "lemma": "a_deschide",
+    "lemma": "deschide",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_296": {
-    "lemma": "a_închide",
+    "lemma": "închide",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_297": {
-    "lemma": "a_începe",
+    "lemma": "începe",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_298": {
-    "lemma": "a_termina",
+    "lemma": "termina",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_299": {
-    "lemma": "a_opri",
+    "lemma": "opri",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_300": {
-    "lemma": "a_continua",
+    "lemma": "continua",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_301": {
-    "lemma": "a_încerca",
+    "lemma": "încerca",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_302": {
-    "lemma": "a_avea_nevoie",
+    "lemma": "avenevoie",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_303": {
-    "lemma": "a_folosi",
+    "lemma": "folosi",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_304": {
-    "lemma": "a_face",
+    "lemma": "face",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_305": {
-    "lemma": "a_crea",
+    "lemma": "crea",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_306": {
-    "lemma": "a_construi",
+    "lemma": "construi",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_307": {
-    "lemma": "a_sparge",
+    "lemma": "sparge",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_308": {
-    "lemma": "a_repara",
+    "lemma": "repara",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_309": {
-    "lemma": "a_curăța",
+    "lemma": "curăța",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_310": {
-    "lemma": "a_spăla",
+    "lemma": "spăla",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2531,56 +2531,56 @@
     ]
   },
   "ro_311": {
-    "lemma": "a_găti",
+    "lemma": "găti",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_312": {
-    "lemma": "a_tăia",
+    "lemma": "tăia",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_313": {
-    "lemma": "a_trage",
+    "lemma": "trage",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_314": {
-    "lemma": "a_impinge",
+    "lemma": "impinge",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_315": {
-    "lemma": "a_arunca",
+    "lemma": "arunca",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_316": {
-    "lemma": "a_prinde",
+    "lemma": "prinde",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_317": {
-    "lemma": "a_cădea",
+    "lemma": "cădea",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_318": {
-    "lemma": "a_se_ridica",
+    "lemma": "se_ridica",
     "tags": [
       "<vb>",
       "<intr>",
@@ -2588,56 +2588,56 @@
     ]
   },
   "ro_319": {
-    "lemma": "a_zbura",
+    "lemma": "zbura",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_320": {
-    "lemma": "a_înota",
+    "lemma": "înota",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_321": {
-    "lemma": "a_conduce",
+    "lemma": "conduce",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_322": {
-    "lemma": "a_călări",
+    "lemma": "călări",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_323": {
-    "lemma": "a_călători",
+    "lemma": "călători",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_324": {
-    "lemma": "a_sosi",
+    "lemma": "sosi",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_325": {
-    "lemma": "a_pleca",
+    "lemma": "pleca",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_326": {
-    "lemma": "a_se_întoarce",
+    "lemma": "se_întoarce",
     "tags": [
       "<vb>",
       "<intr>",
@@ -2645,42 +2645,42 @@
     ]
   },
   "ro_327": {
-    "lemma": "a_intra",
+    "lemma": "intra",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_328": {
-    "lemma": "a_ieși",
+    "lemma": "ieși",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_329": {
-    "lemma": "a_trăi",
+    "lemma": "trăi",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_330": {
-    "lemma": "a_muri",
+    "lemma": "muri",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_331": {
-    "lemma": "a_omorî",
+    "lemma": "omorî",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_332": {
-    "lemma": "a_se_naște",
+    "lemma": "se_naște",
     "tags": [
       "<vb>",
       "<intr>",
@@ -2688,63 +2688,63 @@
     ]
   },
   "ro_333": {
-    "lemma": "a_crește",
+    "lemma": "crește",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_334": {
-    "lemma": "a_schimba",
+    "lemma": "schimba",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_335": {
-    "lemma": "a_deveni",
+    "lemma": "deveni",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_336": {
-    "lemma": "a_rămâne",
+    "lemma": "rămâne",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_337": {
-    "lemma": "a_simți",
+    "lemma": "simți",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_338": {
-    "lemma": "a_părea",
+    "lemma": "părea",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_339": {
-    "lemma": "a_apărea",
+    "lemma": "apărea",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_340": {
-    "lemma": "a_dispărea",
+    "lemma": "dispărea",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_341": {
-    "lemma": "a_se_întâmpla",
+    "lemma": "se_întâmpla",
     "tags": [
       "<vb>",
       "<intr>",
@@ -2752,42 +2752,42 @@
     ]
   },
   "ro_342": {
-    "lemma": "a_exista",
+    "lemma": "exista",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_343": {
-    "lemma": "a_apartine",
+    "lemma": "apartine",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_344": {
-    "lemma": "a_conține",
+    "lemma": "conține",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_345": {
-    "lemma": "a_include",
+    "lemma": "include",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_346": {
-    "lemma": "a_însemna",
+    "lemma": "însemna",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_347": {
-    "lemma": "a_și_aminti",
+    "lemma": "și_aminti",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2795,21 +2795,21 @@
     ]
   },
   "ro_348": {
-    "lemma": "a_uita",
+    "lemma": "uita",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_349": {
-    "lemma": "a_crede",
+    "lemma": "crede",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_350": {
-    "lemma": "a_spera",
+    "lemma": "spera",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2817,7 +2817,7 @@
     ]
   },
   "ro_351": {
-    "lemma": "a_se_tem",
+    "lemma": "se_tem",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2825,7 +2825,7 @@
     ]
   },
   "ro_352": {
-    "lemma": "a_dori",
+    "lemma": "dori",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2833,35 +2833,35 @@
     ]
   },
   "ro_353": {
-    "lemma": "a_alege",
+    "lemma": "alege",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_354": {
-    "lemma": "a_decide",
+    "lemma": "decide",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_355": {
-    "lemma": "a_fi_de_acord",
+    "lemma": "fi_de_acord",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_356": {
-    "lemma": "a_nu_fi_de_acord",
+    "lemma": "nu_fi_de_acord",
     "tags": [
       "<vb>",
       "<intr>"
     ]
   },
   "ro_357": {
-    "lemma": "a_promite",
+    "lemma": "promite",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2869,7 +2869,7 @@
     ]
   },
   "ro_358": {
-    "lemma": "a_oferi",
+    "lemma": "oferi",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2877,14 +2877,14 @@
     ]
   },
   "ro_359": {
-    "lemma": "a_primi",
+    "lemma": "primi",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_360": {
-    "lemma": "a_trimite",
+    "lemma": "trimite",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2892,77 +2892,77 @@
     ]
   },
   "ro_361": {
-    "lemma": "a_aduce",
+    "lemma": "aduce",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_362": {
-    "lemma": "a_cara",
+    "lemma": "cara",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_363": {
-    "lemma": "aține",
+    "lemma": "ține",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_364": {
-    "lemma": "a_pune",
+    "lemma": "pune",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_365": {
-    "lemma": "a_mișca",
+    "lemma": "mișca",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_366": {
-    "lemma": "a_intoarce",
+    "lemma": "intoarce",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_367": {
-    "lemma": "a_urmări",
+    "lemma": "urmări",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_368": {
-    "lemma": "a_conduce",
+    "lemma": "conduce",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_369": {
-    "lemma": "a_întâlni",
+    "lemma": "întâlni",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_370": {
-    "lemma": "a_vizita",
+    "lemma": "vizita",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_371": {
-    "lemma": "a_invita",
+    "lemma": "invita",
     "tags": [
       "<vb>",
       "<tran>",
@@ -2970,14 +2970,14 @@
     ]
   },
   "ro_372": {
-    "lemma": "a_mulțumi",
+    "lemma": "mulțumi",
     "tags": [
       "<vb>",
       "<tran>"
     ]
   },
   "ro_373": {
-    "lemma": "a_și_cere_scuze",
+    "lemma": "se_scuza",
     "tags": [
       "<vb>",
       "<intr>",
@@ -2985,7 +2985,7 @@
     ]
   },
   "ro_374": {
-    "lemma": "a_celebra",
+    "lemma": "celebra",
     "tags": [
       "<vb>",
       "<tran>"
@@ -3424,7 +3424,7 @@
     ]
   },
   "ro_447": {
-    "lemma": "la_sa",
+    "lemma": "lsa",
     "tags": [
       "<pr>"
     ]
