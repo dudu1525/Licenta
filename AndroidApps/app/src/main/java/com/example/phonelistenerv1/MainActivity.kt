@@ -18,6 +18,8 @@ import org.vosk.Recognizer
 import org.vosk.android.StorageService
 import java.net.InetSocketAddress
 import java.nio.ByteBuffer
+import com.chaquo.python.Python
+import com.chaquo.python.android.AndroidPlatform
 
 import java.io.File
 class MainActivity : AppCompatActivity() {
@@ -29,7 +31,16 @@ class MainActivity : AppCompatActivity() {
 
     private var recognizer: Recognizer? = null
 
+    private var translator: com.chaquo.python.PyObject? = null
 
+
+    private fun loadTranslator() {
+        Thread {
+            if (!Python.isStarted()) Python.start(AndroidPlatform(this))
+            translator = Python.getInstance().getModule("translator")
+            runOnUiThread { btnStart.text = "Translator ready" }
+        }.start()
+    }
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -51,7 +62,7 @@ class MainActivity : AppCompatActivity() {
         wsServer?.start()
 
             loadVoskModel()
-
+            loadTranslator()
 
     }
 
@@ -118,7 +129,8 @@ class MainActivity : AppCompatActivity() {
 
 
                                 runOnUiThread { tvResult.text = spokenText }
-                                broadcast(spokenText) //sent to oled
+                                val roText = translator?.callAttr("translateSentence", spokenText)?.toString()
+                                broadcast(roText) //sent to oled
 
 
                     }

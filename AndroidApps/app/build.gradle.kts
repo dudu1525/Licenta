@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.chaquopy)
 }
 
 android {
@@ -30,16 +31,20 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 }
-
+chaquopy {
+    defaultConfig {
+        version = "3.11"
+         buildPython("C:\\Users\\serba\\AppData\\Local\\Programs\\Python\\Python311\\python.exe")
+    }
+}
 dependencies {
-   /* implementation("com.microsoft.onnxruntime:onnxruntime-android:1.17.0")*/
     implementation("org.java-websocket:Java-WebSocket:1.5.3")
     implementation("net.java.dev.jna:jna:5.13.0@aar")
     implementation("com.alphacephei:vosk-android:0.3.32@aar")

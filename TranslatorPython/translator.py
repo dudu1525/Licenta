@@ -37,9 +37,10 @@ def translateSentence(inp: str):
 
 
 
-translateSentence("He likes the big cat")
-translateSentence("he likes to eat")
-translateSentence("I eat")
-translateSentence("She sees him")
-translateSentence("We want to see the big house in the small village")
-translateSentence("he does nothing")
+#translateSentence("He likes the big cat")
+#translateSentence("he likes to eat")
+#translateSentence("I eat")
+#translateSentence("She sees him")
+#translateSentence("We want to see the big house in the small village")
+#translateSentence("he does nothing")
+translateSentence("are you sure")
