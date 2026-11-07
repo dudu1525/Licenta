@@ -14,30 +14,32 @@ from morphGenerator import GenerateFinalSentence
 
 def translateSentence(inp: str):
     listForm = analyze(inp, [])
-    print(listForm)
+    #print(listForm)
     tree =parseSentenceFromWordFormat(listForm)
     if tree==None:#unsucessful, shallow transfer then morph transfer and generation
          print("parse failed!!!!")
+    
+    #also need to put a catch block here to do shallow analyzing
     else:#continue with structural morph transfer then generation
-         view_tree(tree) 
+         #view_tree(tree) 
          romtree =structuralTransfer(tree)
-         view_tree(romtree)
-         print("NOW TRANSFORMED TREE")
+        # view_tree(romtree)
+        # print("NOW TRANSFORMED TREE")
          words = StructuralTransferAndFlatten(romtree)
-         for wf in words:
-            print(wf)
+        # for wf in words:
+         #   print(wf)
          print("generated")
          finalSentt =  GenerateFinalSentence(words)
-         for ww in finalSentt:
-            print(ww)
+         print(finalSentt)
 
      
 
 
 
 
-#translateSentence("He likes the big cat")
-#translateSentence("he likes to eat")
-#translateSentence("I eat")
-#translateSentence("She sees him")
+translateSentence("He likes the big cat")
+translateSentence("he likes to eat")
+translateSentence("I eat")
+translateSentence("She sees him")
 translateSentence("We want to see the big house in the small village")
+translateSentence("he does nothing")

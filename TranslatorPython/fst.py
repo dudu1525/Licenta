@@ -111,6 +111,7 @@ rules = [
     LeftContextRule(["s","h"],"<PL>",   ["e", "s"])],
     #3rd person singular
     [LeftContextRule([],       "<3SG>",  ["s"]),
+     LeftContextRule(["o"],    "<3SG>",  ["e", "s"]),
     LeftContextRule(["x"],    "<3SG>",  ["e", "s"]),
     LeftContextRule(["s"],    "<3SG>",  ["e", "s"]),
     LeftContextRule(["c","h"],"<3SG>",  ["e", "s"]),

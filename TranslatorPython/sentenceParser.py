@@ -200,7 +200,8 @@ with open("lexicons/bilingual_map.json", "r", encoding="utf-8") as f:
 EN_LEMMA_TO_ID = {entry["lemma"].lower(): en_id for en_id, entry in EN_LEX.items()}
 
 def translate_lex_entry(en_wf: WordFormat) -> WordFormat:
-
+    if "<ro>" in en_wf.tags:
+        return en_wf    
     lemma_clean = en_wf.lemma.lower().strip()
     
     en_id = EN_LEMMA_TO_ID.get(lemma_clean)
@@ -213,12 +214,11 @@ def translate_lex_entry(en_wf: WordFormat) -> WordFormat:
 
     ro_entry = RO_LEX[ro_id]
     ro_lemma = ro_entry["lemma"]
-    ro_tags = list(ro_entry["tags"])
+    ro_tags = list(ro_entry["tags"])+ ["<ro>"]
 
     for tag in en_wf.tags:
         if tag not in ro_tags:
             ro_tags.append(tag)
-
     return WordFormat(ro_lemma, ro_tags)
 
 def get_dative_clitic(pronoun_wf: WordFormat) -> WordFormat:
@@ -250,7 +250,15 @@ def find_head_verb(vp):
         return find_head_verb(first)
     return None
 
-
+def propagate_person(node, person_tags):
+    #this is needed to pass, from a subject
+    if node.is_leaf():
+        wf = node.label
+        if isinstance(wf, WordFormat) and "<vb>" in wf.tags and "<conj>" in wf.tags:
+            wf.tags.extend(t for t in person_tags if t not in wf.tags)
+        return
+    for child in node.children:
+        propagate_person(child, person_tags)
 
 
 
@@ -331,6 +339,7 @@ def structuralTransfer(node:Node)->Node: #input tree, returns romanian tree,
                 person_tags = [t for t in ro_main_wf.tags if t in ["<p1>", "<p2>", "<p3>", "<sg>", "<pl>"]]
                 if "<3SG>" in ro_main_wf.tags:
                     person_tags.append("<p3>")
+                    person_tags.append("<sg>")
                 ro_translated_second_verb.tags.append("<conj>") #add conjunctive clause to the verb
                 ro_translated_second_verb.tags.extend([t for t in person_tags if t not in ro_translated_second_verb.tags])
 
@@ -352,7 +361,7 @@ def structuralTransfer(node:Node)->Node: #input tree, returns romanian tree,
         if (vp_node.label == "VP" and len(vp_node.children) >= 2 and vp_node.children[0].label == "<vb>"):
             verb_wf = vp_node.children[0].children[0].label
           
-            if verb_wf.lemma.lower() in ["a_plăcea", "a_trebui"]:
+            if verb_wf.lemma.lower() in ["plăcea", "trebui"]:
            
                 subj_wf = subj_np.children[0].children[0].label
                 person_tags = [t for t in subj_wf.tags if t in ["<p1>", "<p2>", "<p3>", "<sg>", "<pl>"]]
@@ -376,24 +385,23 @@ def structuralTransfer(node:Node)->Node: #input tree, returns romanian tree,
         subj_np, vp_node = node.children[0], node.children[1]
         if subj_np.label == "NP" and len(subj_np.children) == 1 and subj_np.children[0].label == "<prn>":
             prn_wf = subj_np.children[0].children[0].label #get the pronoun itself
-            person_tags = [t for t in prn_wf.tags if t in ["<p1>", "<p2>", "<p3>", "<sg>", "<pl>"]]
+            person_tags = [t for t in prn_wf.tags if t in ["<p1>", "<p2>", "<p3>", "<sg>", "<pl>", "<3SG>"]]
             # give the person number to the verb following the pronoun
             verb_wf = find_head_verb(vp_node)
             if verb_wf is not None:
                 verb_wf.tags.extend([t for t in person_tags if t not in verb_wf.tags])
+                propagate_person(vp_node, person_tags)
                 #translated_verb = translate_lex_entry(vp_node.children[0].children[0].label)
             #drop the np node
                 return Node("S", [vp_node])
 
 
 
-
-
-
-
-
 #also normal nodes need direct translate, no rules, if not of type NOM, VP, NP, ETC
     return node
+
+
+
 
 def StructuralTransferAndFlatten(node:Node) ->List[WordFormat]:
 
