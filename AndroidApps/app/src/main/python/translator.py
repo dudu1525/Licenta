@@ -29,7 +29,18 @@ def translateSentence(inp: str):
         # for wf in words:
          #   print(wf)
          #print("generated")
-         return GenerateFinalSentence(words)
+         printableSent = GenerateFinalSentence(words)
+         printableSent.replace("ă", "a")
+         printableSent.replace("â", "a")
+         printableSent.replace("î", "i")
+         printableSent.replace("ș", "s")
+         printableSent.replace("ț", "t")
+         printableSent.replace("Ă", "A")
+         printableSent.replace("Â", "A")
+         printableSent.replace("Î", "I")
+         printableSent.replace("Ș", "S")
+         printableSent.replace("Ț", "T")
+         return printableSent
          #print(finalSentt)
 
      
