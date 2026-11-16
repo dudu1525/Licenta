@@ -35,6 +35,15 @@ IRREGULAR_VERBS = {
     }
 }
 
+PAST_AUXILIARIES = {
+    ("<p1>", "<sg>"): "am",
+    ("<p2>", "<sg>"): "ai",
+    ("<p3>", "<sg>"): "a",
+    ("<p1>", "<pl>"): "am",
+    ("<p2>", "<pl>"): "ați",
+    ("<p3>", "<pl>"): "au",
+}
+
 #rules:
 
 #prepositions, conjunctions,  remain the same
@@ -109,14 +118,37 @@ def generate_noun(wf: WordFormat) -> str:
 
     return base_form
 
+def generate_gerund(lemma: str) -> str:
+    if lemma.endswith("i"):
+        return lemma + "nd"
+    if lemma.endswith(("a", "e", "î")):
+        return lemma[:-1] + "ând"
+    return lemma + "ând"
+
+def generate_past_participle(lemma: str) -> str:
+    if lemma.endswith("a"):
+        return lemma + "t"
+    if lemma.endswith("e"):
+        return lemma[:-1] + "ut"
+    if lemma.endswith("i"):
+        return lemma + "t"
+    if lemma.endswith("î"):
+        return lemma[:-1] + "ât"
+    return lemma + "at"
+
 def generate_verb(wf: WordFormat) -> str:
     lemma = wf.lemma
     tags = wf.tags
 
     mood = "ind"
 
+    if "<GER>" in tags:
+        return generate_gerund(lemma)
+
     if "<conj>" in tags:
         mood = "conj"
+
+
 
     person = None
     if "<p1>" in tags:
@@ -132,6 +164,11 @@ def generate_verb(wf: WordFormat) -> str:
         number = "<sg>"
     elif "<pl>" in tags:
         number = "<pl>"
+
+    if "<PAST>" in tags:
+        aux = PAST_AUXILIARIES.get((person, number), "a") #fallback is simple 'a'
+        participle = generate_past_participle(lemma)
+        return aux + " " + participle    
 
     if person is None or number is None:
         return lemma

@@ -69,7 +69,7 @@ def perform_fst_traversal(fst:FST, input_string:str) -> list[list[str]]:
     for o in outputs:
         if o[-1]=='<PL>':
             o.append('<n>')
-        elif o[-1]=='<3SG>' or o[-1]=='<PAST>':
+        elif o[-1]=='<3SG>' or o[-1]=='<PAST>' or o[-1]=='<GER>':
             o.append('<vb>')
     
     return outputs
@@ -100,7 +100,7 @@ ALPHABET = [
 ]
 SPECIAL_SYMBOLS =[    "<PL>",
     "<3SG>", #for verb, 3rd person, singular (es)
-    "<PAST>"]
+    "<PAST>", "<GER>"]
 
 rules = [
     #plural
@@ -120,6 +120,9 @@ rules = [
     [LeftContextRule([],       "<PAST>", ["e", "d"]),
     LeftContextRule(["e"],    "<PAST>", ["d"]),
     LeftContextRule(["y"],    "<PAST>", ["i", "e", "d"])],
+    # gerund / -ing 
+    [LeftContextRule([],       "<GER>",  ["i", "n", "g"]),
+     LeftContextRule(["e"],    "<GER>",  ["i", "n", "g"])],
 ]
 
 

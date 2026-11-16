@@ -21,6 +21,7 @@ def translateSentence(inp: str) -> str:
         if tree is None:
             words = shallow_transfer(listForm)
         else:
+         
             romtree = structuralTransfer(tree)
             words = StructuralTransferAndFlatten(romtree)
     except Exception as e:
@@ -46,11 +47,15 @@ def translateSentence(inp: str) -> str:
 
 #translateSentence("He likes the big cat")
 #translateSentence("he likes to eat")
-translateSentence("I eat")
+#translateSentence("I eat")
 #translateSentence("She sees him")
 #translateSentence("We want to see the big house in the small village")
 #translateSentence("he does nothing")
 #translateSentence("are you sure")
 
 #shallow transfer test
-translateSentence("I created the big car and the small table")
+#translateSentence("I created the big car and the small table")
+
+#translateSentence("The big boy likes the dog")
+#translateSentence("where are you")
+

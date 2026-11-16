@@ -3842,5 +3842,481 @@
       "<cnj>",
       "<neg>"
     ]
+  },
+  "en_527": {
+    "lemma": "what",
+    "tags": ["<prn>", "<itg>"]
+  },
+  "en_528": {
+    "lemma": "who",
+    "tags": ["<prn>", "<itg>", "<nom>"]
+  },
+  "en_529": {
+    "lemma": "whom",
+    "tags": ["<prn>", "<itg>", "<acc>"]
+  },
+  "en_530": {
+    "lemma": "whose",
+    "tags": ["<prn>", "<itg>", "<gen>"]
+  },
+  "en_531": {
+    "lemma": "which",
+    "tags": ["<prn>", "<itg>"]
+  },
+  "en_532": {
+    "lemma": "it",
+    "tags": ["<prn>", "<p3>", "<sg>", "<nt>", "<nom>"]
+  },
+  "en_533": {
+    "lemma": "its",
+    "tags": ["<prn>", "<p3>", "<sg>", "<nt>", "<gen>"]
+  },
+  "en_534": {
+    "lemma": "our",
+    "tags": ["<prn>", "<p1>", "<pl>", "<gen>"]
+  },
+  "en_535": {
+    "lemma": "ours",
+    "tags": ["<prn>", "<p1>", "<pl>", "<gen>"]
+  },
+  "en_536": {
+    "lemma": "their",
+    "tags": ["<prn>", "<p3>", "<pl>", "<gen>"]
+  },
+  "en_537": {
+    "lemma": "theirs",
+    "tags": ["<prn>", "<p3>", "<pl>", "<gen>"]
+  },
+  "en_538": {
+    "lemma": "yours",
+    "tags": ["<prn>", "<p2>", "<sg>", "<gen>"]
+  },
+  "en_539": {
+    "lemma": "hers",
+    "tags": ["<prn>", "<p3>", "<sg>", "<f>", "<gen>"]
+  },
+  "en_540": {
+    "lemma": "under",
+    "tags": ["<pr>"]
+  },
+  "en_541": {
+    "lemma": "over",
+    "tags": ["<pr>"]
+  },
+  "en_542": {
+    "lemma": "between",
+    "tags": ["<pr>"]
+  },
+  "en_543": {
+    "lemma": "before",
+    "tags": ["<pr>"]
+  },
+  "en_544": {
+    "lemma": "after",
+    "tags": ["<pr>"]
+  },
+  "en_545": {
+    "lemma": "during",
+    "tags": ["<pr>"]
+  },
+  "en_546": {
+    "lemma": "through",
+    "tags": ["<pr>"]
+  },
+  "en_547": {
+    "lemma": "against",
+    "tags": ["<pr>"]
+  },
+  "en_548": {
+    "lemma": "around",
+    "tags": ["<pr>"]
+  },
+  "en_549": {
+    "lemma": "near",
+    "tags": ["<pr>"]
+  },
+  "en_550": {
+    "lemma": "into",
+    "tags": ["<pr>"]
+  },
+  "en_551": {
+    "lemma": "well",
+    "tags": ["<adv>"]
+  },
+  "en_552": {
+    "lemma": "badly",
+    "tags": ["<adv>"]
+  },
+  "en_553": {
+    "lemma": "quickly",
+    "tags": ["<adv>"]
+  },
+  "en_554": {
+    "lemma": "slowly",
+    "tags": ["<adv>"]
+  },
+  "en_555": {
+    "lemma": "soon",
+    "tags": ["<adv>"]
+  },
+  "en_556": {
+    "lemma": "late",
+    "tags": ["<adv>"]
+  },
+  "en_557": {
+    "lemma": "early",
+    "tags": ["<adv>"]
+  },
+  "en_558": {
+    "lemma": "often",
+    "tags": ["<adv>"]
+  },
+  "en_559": {
+    "lemma": "sometimes",
+    "tags": ["<adv>"]
+  },
+  "en_560": {
+    "lemma": "maybe",
+    "tags": ["<adv>"]
+  },
+  "en_561": {
+    "lemma": "perhaps",
+    "tags": ["<adv>"]
+  },
+  "en_562": {
+    "lemma": "together",
+    "tags": ["<adv>"]
+  },
+  "en_563": {
+    "lemma": "alone",
+    "tags": ["<adv>"]
+  },
+  "en_564": {
+    "lemma": "something",
+    "tags": ["<prn>"]
+  },
+  "en_565": {
+    "lemma": "someone",
+    "tags": ["<prn>"]
+  },
+  "en_566": {
+    "lemma": "somewhere",
+    "tags": ["<adv>"]
+  },
+  "en_567": {
+    "lemma": "everything",
+    "tags": ["<prn>"]
+  },
+  "en_568": {
+    "lemma": "everyone",
+    "tags": ["<prn>"]
+  },
+  "en_569": {
+    "lemma": "everywhere",
+    "tags": ["<adv>"]
+  },
+  "en_570": {
+    "lemma": "city",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_571": {
+    "lemma": "village",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_572": {
+    "lemma": "country",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_573": {
+    "lemma": "world",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_574": {
+    "lemma": "school",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_575": {
+    "lemma": "name",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_576": {
+    "lemma": "word",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_577": {
+    "lemma": "question",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_578": {
+    "lemma": "answer",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_579": {
+    "lemma": "problem",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_580": {
+    "lemma": "idea",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_581": {
+    "lemma": "thing",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_582": {
+    "lemma": "place",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_583": {
+    "lemma": "way",
+    "tags": ["<n>", "<sg>", "<count>"]
+  },
+  "en_584": {
+    "lemma": "sure",
+    "tags": ["<adj>"]
+  },
+  "en_585": {
+    "lemma": "red",
+    "tags": ["<adj>"]
+  },
+  "en_586": {
+    "lemma": "am",
+    "tags": ["<vb>", "<intr>", "<p1>", "<sg>"]
+  },
+  "en_587": {
+    "lemma": "is",
+    "tags": ["<vb>", "<intr>", "<p3>", "<sg>"]
+  },
+  "en_588": {
+    "lemma": "are",
+    "tags": ["<vb>", "<intr>", "<p2>", "<sg>"]
+  },
+  "en_589": {
+    "lemma": "was",
+    "tags": ["<vb>", "<intr>", "<p3>", "<sg>", "<PAST>"]
+  },
+  "en_590": {
+    "lemma": "were",
+    "tags": ["<vb>", "<intr>", "<p2>", "<sg>", "<PAST>"]
+  },
+  "en_591": {
+    "lemma": "been",
+    "tags": ["<vb>", "<intr>", "<PAST>"]
+  },
+  "en_592": {
+    "lemma": "being",
+    "tags": ["<vb>", "<intr>", "<GER>"]
+  },
+  "en_593": {
+    "lemma": "has",
+    "tags": ["<vb>", "<tran>", "<p3>", "<sg>"]
+  },
+  "en_594": {
+    "lemma": "had",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_595": {
+    "lemma": "does",
+    "tags": ["<vb>", "<tran>", "<p3>", "<sg>"]
+  },
+  "en_596": {
+    "lemma": "did",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_597": {
+    "lemma": "went",
+    "tags": ["<vb>", "<intr>", "<PAST>"]
+  },
+  "en_598": {
+    "lemma": "gone",
+    "tags": ["<vb>", "<intr>", "<PAST>"]
+  },
+  "en_599": {
+    "lemma": "came",
+    "tags": ["<vb>", "<intr>", "<PAST>"]
+  },
+  "en_600": {
+    "lemma": "saw",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_601": {
+    "lemma": "seen",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_602": {
+    "lemma": "heard",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_603": {
+    "lemma": "said",
+    "tags": ["<vb>", "<tran>", "<ditrans>", "<PAST>"]
+  },
+  "en_604": {
+    "lemma": "gave",
+    "tags": ["<vb>", "<tran>", "<ditrans>", "<PAST>"]
+  },
+  "en_605": {
+    "lemma": "given",
+    "tags": ["<vb>", "<tran>", "<ditrans>", "<PAST>"]
+  },
+  "en_606": {
+    "lemma": "took",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_607": {
+    "lemma": "taken",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_608": {
+    "lemma": "knew",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_609": {
+    "lemma": "known",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_610": {
+    "lemma": "thought",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_611": {
+    "lemma": "ate",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_612": {
+    "lemma": "eaten",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_613": {
+    "lemma": "drank",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_614": {
+    "lemma": "slept",
+    "tags": ["<vb>", "<intr>", "<PAST>"]
+  },
+  "en_615": {
+    "lemma": "wrote",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_616": {
+    "lemma": "written",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_617": {
+    "lemma": "spoke",
+    "tags": ["<vb>", "<intr>", "<PAST>"]
+  },
+  "en_618": {
+    "lemma": "spoken",
+    "tags": ["<vb>", "<intr>", "<PAST>"]
+  },
+  "en_619": {
+    "lemma": "found",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_620": {
+    "lemma": "lost",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_621": {
+    "lemma": "bought",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_622": {
+    "lemma": "sold",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_623": {
+    "lemma": "paid",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_624": {
+    "lemma": "made",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_625": {
+    "lemma": "broke",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_626": {
+    "lemma": "felt",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_627": {
+    "lemma": "left",
+    "tags": ["<vb>", "<intr>", "<PAST>"]
+  },
+  "en_628": {
+    "lemma": "met",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_629": {
+    "lemma": "brought",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_630": {
+    "lemma": "held",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_631": {
+    "lemma": "ran",
+    "tags": ["<vb>", "<intr>", "<PAST>"]
+  },
+  "en_632": {
+    "lemma": "sat",
+    "tags": ["<vb>", "<intr>", "<ref>", "<PAST>"]
+  },
+  "en_633": {
+    "lemma": "stood",
+    "tags": ["<vb>", "<intr>", "<PAST>"]
+  },
+  "en_634": {
+    "lemma": "told",
+    "tags": ["<vb>", "<tran>", "<ditrans>", "<PAST>"]
+  },
+  "en_635": {
+    "lemma": "got",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_636": {
+    "lemma": "understood",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_637": {
+    "lemma": "began",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_638": {
+    "lemma": "forgot",
+    "tags": ["<vb>", "<tran>", "<PAST>"]
+  },
+  "en_639": {
+    "lemma": "men",
+    "tags": ["<n>", "<pl>", "<count>"]
+  },
+  "en_640": {
+    "lemma": "women",
+    "tags": ["<n>", "<pl>", "<count>"]
+  },
+  "en_641": {
+    "lemma": "children",
+    "tags": ["<n>", "<pl>", "<count>"]
+  },
+  "en_642": {
+    "lemma": "people",
+    "tags": ["<n>", "<pl>", "<count>"]
+  },
+  "en_643": {
+    "lemma": "feet",
+    "tags": ["<n>", "<pl>", "<count>"]
+  },
+  "en_644": {
+    "lemma": "teeth",
+    "tags": ["<n>", "<pl>", "<count>"]
+  },
+  "en_645": {
+    "lemma": "mice",
+    "tags": ["<n>", "<pl>", "<count>"]
   }
 }

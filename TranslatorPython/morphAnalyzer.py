@@ -125,9 +125,9 @@ def analyze(inputString:str, outform):
                        # print (i)
                         if len(i[-1])>1: #this means the last part is a tag
                             normalWord = transformFromListToString(i)#transform to normal string
-                           # print(normalWord)
+                            #print(normalWord)
                             foundTagForSingleWord = hmm.viterbiAlgorithm([word]) #check single word, without contex!!!!!!! CHECK THE INITIAL WORD, NOT the one from the fst!!!
-                            #print(formatMapper[foundTagForSingleWord[0]] + i[-1] + predictedTag)
+                           # print(formatMapper[foundTagForSingleWord[0]] + i[-1] + predictedTag)
                             lastTag = i[-1]
                             #match between the found tag from the pos tagger, the found tag from the fst analyzer and from a second pos 
                             if  lastTag == formatMapper[foundTagForSingleWord[0]] and lastTag == formatMapper[predictedTag]:
