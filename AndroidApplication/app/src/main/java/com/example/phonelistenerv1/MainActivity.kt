@@ -1,15 +1,12 @@
 package com.example.phonelistenerv1
 
-import android.Manifest
-import android.content.pm.PackageManager
+
 import android.os.Bundle
 import android.os.PowerManager
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import org.java_websocket.WebSocket
 import org.java_websocket.handshake.ClientHandshake
 import org.java_websocket.server.WebSocketServer
@@ -21,7 +18,6 @@ import java.nio.ByteBuffer
 import com.chaquo.python.Python
 import com.chaquo.python.android.AndroidPlatform
 
-import java.io.File
 class MainActivity : AppCompatActivity() {
 
     private lateinit var tvResult: TextView
@@ -31,8 +27,12 @@ class MainActivity : AppCompatActivity() {
 
     private var recognizer: Recognizer? = null
 
-    private var translator: com.chaquo.python.PyObject? = null
-
+    //the translator runs on its single thread
+    @Volatile private var translator: com.chaquo.python.PyObject? = null
+    private val translateExecutor = java.util.concurrent.Executors.newSingleThreadExecutor()
+    private val translating = java.util.concurrent.atomic.AtomicBoolean(false)
+    private var lastKey = ""
+    ////////////////////////////////////////////////translator functions
 
     private fun loadTranslator() {
         Thread {
@@ -41,8 +41,29 @@ class MainActivity : AppCompatActivity() {
             runOnUiThread { btnStart.text = "Translator has loaded" }
         }.start()
     }
+    private fun translate(original: String, isFinal: Boolean) {
+
+        if (!isFinal && translating.get()) return
+
+        translateExecutor.execute {
+            translating.set(true)
+            try {
+                val translated = translator
+                    ?.callAttr("translateSentence", original)
+                    ?.toString()
+                    ?: return@execute
+                runOnUiThread { tvResult.text = "$original\n→ $translated" }
+                wsServer?.broadcast(translated) //send translated to oled
+            } finally {
+                translating.set(false)
+            }
+        }
+    }
 
 
+
+
+    /////////////////////////////////////////
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -93,9 +114,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        wakeLock?.release()
+       // wakeLock?.release()
         wsServer?.stop()
         recognizer?.close()
+        translateExecutor.shutdownNow()
     }
 
     inner class SimpleWebSocketServer(address: InetSocketAddress) : WebSocketServer(address) {
@@ -111,31 +133,29 @@ class MainActivity : AppCompatActivity() {
         override fun onMessage(conn: WebSocket?, message: String?) {}
 
 
-        override fun onMessage(conn: WebSocket?, message: ByteBuffer?)
-        {
-            val audioData = message?.array() ?: return
+        override fun onMessage(conn: WebSocket?, message: ByteBuffer?) {
+            message ?: return;
 
-            recognizer?.let { rec ->
-                val isSentenceFinished = rec.acceptWaveForm(audioData, audioData.size)
-                val jsonResult = if (isSentenceFinished) rec.result else rec.partialResult
+            val audioData = ByteArray(message.remaining())
+            message.get(audioData)
 
-                val json = JSONObject(jsonResult)
-                val key = if (isSentenceFinished) "text" else "partial"
+            val rec = recognizer ?: return;
 
-                if (json.has(key))
-                {
-                    val spokenText = json.getString(key)
-                    if (spokenText.isNotEmpty()) {
+            val isFinal = rec.acceptWaveForm(audioData, audioData.size)
+            val json = JSONObject(if (isFinal) rec.result else rec.partialResult)
+            val text = json.optString(if (isFinal) "text" else "partial").trim()
 
+            if (text.isEmpty()) return;
 
-                                runOnUiThread { tvResult.text = spokenText }
-                                val roText = translator?.callAttr("translateSentence", spokenText)?.toString()
-                                broadcast(roText) //sent to oled
+            //if nothing changed, do not translate or send
+            val key = (if (isFinal) "F:" else "P:") + text
+            if (key == lastKey) return;
+            lastKey = key
 
 
-                    }
-                }
-            }
+            runOnUiThread { tvResult.text = text }
+
+            translate(text, isFinal)
         }
 
         override fun onError(conn: WebSocket?, ex: Exception?) {}

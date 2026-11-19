@@ -37,7 +37,7 @@ def translateSentence(inp: str) -> str:
     printableSent = printableSent.replace("î", "i")
     printableSent = printableSent.replace("ș", "s")
     printableSent = printableSent.replace("ț", "t")
-    print(printableSent)
+    #print(printableSent)
     return printableSent
 
      

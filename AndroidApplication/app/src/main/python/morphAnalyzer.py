@@ -16,7 +16,7 @@ formatMapper={
     "AUX": "<vb>",#aux verb - >verb
     "DET": "<art>",#determiner, article
     "ADP": "<pr>", #preposition
-    "INJ": "<intj>", #interjection
+    "INTJ": "<intj>", #interjection
     "PART": "<pr>", #particle
     "PROPN": "<propn>", #proper noun - ill see what i do with this
     "PUNCT": "<punc>", #punctuation
