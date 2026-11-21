@@ -34,8 +34,8 @@ void initMicrophone() {///////////////////////////////////////////////
         .channel_format = I2S_CHANNEL_FMT_ONLY_LEFT,
         .communication_format = i2s_comm_format_t(I2S_COMM_FORMAT_STAND_I2S),
         .intr_alloc_flags = 0,
-        .dma_buf_count = 8,
-        .dma_buf_len = 64,
+        .dma_buf_count = 16,
+        .dma_buf_len = 256,
         .use_apll = false
     };
     i2s_driver_install(I2S_PORT, &i2s_config, 0, NULL);
@@ -57,7 +57,7 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
         case WStype_CONNECTED://connected to phone
            // Serial.println("Connected to Phone!");
             display.clearDisplay();
-            display.setCursor(0,0); 
+            display.setCursor(0,12); 
             display.print("Connected!");
             display.display();
             break;
@@ -66,7 +66,7 @@ void webSocketEvent(WStype_t type, uint8_t * payload, size_t length) {
             Serial.println(aiText);
             
             display.clearDisplay();
-            display.setCursor(0,0);
+            display.setCursor(0,12);
             display.print(aiText);
             display.display();
              lastTextTime = millis();
@@ -84,7 +84,7 @@ void initDisplay()
     display.setTextSize(1); 
     display.setTextColor(SSD1306_WHITE);
     display.setTextWrap(true); 
-    display.setCursor(0,0);
+    display.setCursor(0,12);
     display.print("Connecting Wi-Fi...");
     display.display();
 }
@@ -110,7 +110,7 @@ void setup() {
     }
     
     display.clearDisplay();
-    display.setCursor(0,0);
+    display.setCursor(0,12);
     display.print("Wi-Fi Connected!\nLooking for App...");
     display.display();
 
@@ -142,7 +142,7 @@ void loop() {
         size_t bytesRead = 0;
         
         //read into the created buffer, result outputs if read was done ok
-        esp_err_t result = i2s_read(I2S_PORT, &audioBuffer, sizeof(audioBuffer), &bytesRead, portMAX_DELAY);
+        esp_err_t result = i2s_read(I2S_PORT, &audioBuffer, sizeof(audioBuffer), &bytesRead, pdMS_TO_TICKS(100));
         
         //send to webSocket the read bytes of sound
         if (result == ESP_OK && bytesRead > 0) {

@@ -72,7 +72,8 @@ class MainActivity : AppCompatActivity() {
         btnStart = findViewById(R.id.btnStart)
         btnStart.text = "Initializing AI voice to text model"
         btnStart.isEnabled = false
-
+        //partial wake lock so the phone doesent go to sleep whilest the translation and getting incoming audio happens
+        //also runs even if screen is off
         val powerManager = getSystemService(POWER_SERVICE) as PowerManager
         wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "PhoneListener::WsServerLock")
         wakeLock?.acquire(30 * 60 * 1000L)
@@ -135,13 +136,13 @@ class MainActivity : AppCompatActivity() {
 
         override fun onMessage(conn: WebSocket?, message: ByteBuffer?) {
             message ?: return;
-
-            val audioData = ByteArray(message.remaining())
+            //get remaining (unread data) from the esp
+            val audioData = ByteArray(message.remaining()) //get the remaining(how many more are stored) in the bytebuffer (bytes available to be read)
             message.get(audioData)
 
             val rec = recognizer ?: return;
 
-            val isFinal = rec.acceptWaveForm(audioData, audioData.size)
+            val isFinal = rec.acceptWaveForm(audioData, audioData.size)//send data to the vosk model, also returns if its final or partial result
             val json = JSONObject(if (isFinal) rec.result else rec.partialResult)
             val text = json.optString(if (isFinal) "text" else "partial").trim()
 
